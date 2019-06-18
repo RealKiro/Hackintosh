@@ -73,9 +73,9 @@
 
 [12] [AppleALC支持的Codecs列表及AppleALC的使用](https://blog.daliansky.net/AppleALC-Supported-codecs.html)
 
-[13]() [VoodooPS2Controller]()
+[13][VoodooPS2Controller](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)
 
-[14] [ThinkPad W520 SD卡读卡器驱动 VoodooSDHC.kext分享]()
+[14] [ThinkPad W520 SD卡读卡器驱动 VoodooSDHC.kext分享](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1259442&highlight=VoodooSDHC.kext)
 
 [15] [白名单]()
  
