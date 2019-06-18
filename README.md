@@ -1,5 +1,5 @@
 # 一．前言
- 	
+ 	![title](https://i.imgur.com/xVrXIVT.png)
 2012年的ThinkPad T530^[1]^笔记本，某宝2年前买的二手，现在Windows10+Mac双系统基本配置完成
 
 
