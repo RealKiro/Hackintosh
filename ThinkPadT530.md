@@ -37,7 +37,7 @@
 - [x] 白苹果台式机和笔记本键位略有区别，以白苹果为准
 
 5. SDHC卡槽驱动：[VoodooSDHC.kext](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1259442&highlight=VoodooSDHC.kext)<sup>[14]</sup>
-6. 无线网卡驱动：Intel无解，我用的烧录夹刷入[BCM94322HM8L（免驱）白名单](http://bbs.pcbeta.com/search.php?mod=forum&searchid=700&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%B0%D7%C3%FB%B5%A5)后都正常，没有动手能力的建议买USB无线网卡（最好免驱），否则使用有线<sup>[15]</sup>
+6. 无线网卡驱动：Intel无解，我用的烧录夹刷入BCM94322HM8L（免驱）[白名单](http://bbs.pcbeta.com/search.php?mod=forum&searchid=700&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%B0%D7%C3%FB%B5%A5)后都正常，没有动手能力的建议买USB无线网卡（最好免驱），否则使用有线<sup>[15]</sup>
 
 ---
 
@@ -45,13 +45,13 @@
 
  
 
-[1] 时隔一年余，T530再装黑苹果，基本完美
+[1] [时隔一年余，T530再装黑苹果，基本完美](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1662532&highlight=T530)
 
-[2] NVS5400不能驱动，放弃了独显
+[2] [NVS5400不能驱动，放弃了独显]()
 
-[3] T530 白名单解决方案！！！
+[3] [T530 白名单解决方案！！！]
 
-[4] 关于黑苹果下修正ThinkPad小红点飘移的探讨
+[4] [关于黑苹果下修正ThinkPad小红点飘移的探讨]
 
 [5] 黑果小兵  
 
