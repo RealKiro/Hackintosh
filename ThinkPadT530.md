@@ -53,9 +53,9 @@
 
 [4] [关于黑苹果下修正ThinkPad小红点飘移的探讨](file:///Users/kiro/Desktop/ThinkPad%20T530黑苹果.html#pid48732925)
 
-[5] [黑果小兵]()
+[5] [黑果小兵](https://blog.daliansky.net)
 
-[6] [Len’S DMG]() 
+[6] [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len) 
    
 [7] [相同机型的EFI]()
 
