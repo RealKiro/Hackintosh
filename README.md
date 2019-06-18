@@ -1,3 +1,5 @@
+# ThinkPadT530
+
 # 一．前言
 ![配置](https://i.imgur.com/mNrrsPx.png)
 
