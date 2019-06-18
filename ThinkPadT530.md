@@ -27,6 +27,9 @@
 二者总有一个默认配置能进系统的，不能进说明你机子不是主流需要爬贴用[相同机型的EFI](http://bbs.pcbeta.com/viewthread-1795904-1-1.html) <sup>[7]</sup> 替换
  - [x] EFI不是万能药，需要自己根据自己的配置作修改
  - [x] 同Windows一样，系统装好后不能直接食用，需配置适合自己的驱动（一般是 显卡+声卡，其他默认能使用）
+ - [x] 隐藏多余引导项：
+ 	- preboot
+ 	- recovery 
  
 4. [DSDT-SSDT教程](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455) <sup>[8]</sup> ：建议看视频操作
 - [x] 可以驱动核显、亮度调节、电源管理、USB驱动等，不需要有编程基础
