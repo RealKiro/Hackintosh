@@ -77,7 +77,7 @@
 
 [14] [ThinkPad W520 SD卡读卡器驱动 VoodooSDHC.kext分享](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1259442&highlight=VoodooSDHC.kext)
 
-[15] [白名单]()
+[15] [白名单](http://bbs.pcbeta.com/search.php?mod=forum&searchid=700&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%B0%D7%C3%FB%B5%A5)
  
 四．后记：
 
