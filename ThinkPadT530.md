@@ -51,7 +51,7 @@
 
 [3] [T530 白名单解决方案！！！](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1590994&highlight=T530)
 
-[4] [关于黑苹果下修正ThinkPad小红点飘移的探讨](file:///Users/kiro/Desktop/ThinkPad%20T530黑苹果.html#pid48732925)
+[4] [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794564&highlight=%B9%D8%D3%DA%BA%DA%C6%BB%B9%FB%CF%C2%D0%DE%D5%FDThinkPad%D0%A1%BA%EC%B5%E3%C6%AE%D2%C6%B5%C4%CC%BD%CC%D6)
 
 [5] [黑果小兵](https://blog.daliansky.net)
 
