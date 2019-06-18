@@ -61,10 +61,15 @@
 [9] ThinkPad T530等型号电池显示补丁  Laptop-DSDT-Patch/battery/
 
 [10] ssdtPRGen.sh提取制作SSDT     ssdtPRGen.sh的简单标准的用法 
+
 [11] AppleALC
+
 [12] AppleALC支持的Codecs列表及AppleALC的使用
+
 [13] VoodooPS2Controller
+
 [14] ThinkPad W520 SD卡读卡器驱动 VoodooSDHC.kext分享
+
 [15] 白名单
  
 四．后记：
