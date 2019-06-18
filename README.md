@@ -43,14 +43,23 @@
  
 
 [1] 时隔一年余，T530再装黑苹果，基本完美
+
 [2] NVS5400不能驱动，放弃了独显
+
 [3] T530 白名单解决方案！！！
+
 [4] 关于黑苹果下修正ThinkPad小红点飘移的探讨
+
 [5] 黑果小兵  
-[6] Len’S DMG     
+
+[6] Len’S DMG  
+   
 [7] 相同机型的EFI
+
 [8] 使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程] 
+
 [9] ThinkPad T530等型号电池显示补丁  Laptop-DSDT-Patch/battery/
+
 [10] ssdtPRGen.sh提取制作SSDT     ssdtPRGen.sh的简单标准的用法 
 [11] AppleALC
 [12] AppleALC支持的Codecs列表及AppleALC的使用
@@ -62,5 +71,5 @@
 
 1. Codec提取了但教程还没看，感觉有点复杂
 2. 参考引用都是带超链接的可以直接点开，没有链接说明编辑器有问题不是我有问题，后续远景如果能支持MarkDown语法编辑就更好了
-3.这次是完善修改格式
+3. 这次是完善修改格式
  
