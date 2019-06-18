@@ -34,7 +34,7 @@
 3. [AppleALC原版](https://github.com/acidanthera/AppleALC/releases)<sup>[11]</sup> 没修改过Codec，仅[Audio注入](https://blog.daliansky.net/AppleALC-Supported-codecs.html)<sup>[12]</sup> 30，基本正常，可以自动识别并切换外放和耳机
 4. 触摸板驱动：ApplePS2SmartTouchPad.kext红点无法使用，所以换了[VoodooPS2Controller](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)<sup>[13]</sup>，仅Win和Alt键映射反了，其他正常（单击需要在系统偏好设置->鼠标 看看勾选没，起初没勾选还以为驱动有问题^-^|||）
 
-- [x] 
+- [x] 白苹果台式机和笔记本键位略有不同，以白苹果为准
 
 5. SDHC卡槽驱动：VoodooSDHC.kext<sup>[14]</sup>
 6. 无线网卡驱动：Intel无解，我用的烧录夹刷入BCM94322HM8L（免驱）白名单后都正常，没有动手能力的建议买USB无线网卡（最好免驱），否则使用有线<sup>[15]</sup>
