@@ -53,27 +53,27 @@
 
 [4] [关于黑苹果下修正ThinkPad小红点飘移的探讨]
 
-[5] 黑果小兵  
+[5] [黑果小兵]  
 
-[6] Len’S DMG  
+[6] [Len’S DMG]  
    
-[7] 相同机型的EFI
+[7] [相同机型的EFI]
 
-[8] 使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程] 
+[8] [使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]] 
 
-[9] ThinkPad T530等型号电池显示补丁  Laptop-DSDT-Patch/battery/
+[9] [ThinkPad T530等型号电池显示补丁  Laptop-DSDT-Patch/battery/]
 
-[10] ssdtPRGen.sh提取制作SSDT     ssdtPRGen.sh的简单标准的用法 
+[10] [ssdtPRGen.sh提取制作SSDT]     [ssdtPRGen.sh的简单标准的用法] 
 
-[11] AppleALC
+[11] [AppleALC]
 
-[12] AppleALC支持的Codecs列表及AppleALC的使用
+[12] [AppleALC支持的Codecs列表及AppleALC的使用]
 
-[13] VoodooPS2Controller
+[13] [VoodooPS2Controller]
 
-[14] ThinkPad W520 SD卡读卡器驱动 VoodooSDHC.kext分享
+[14] [ThinkPad W520 SD卡读卡器驱动 VoodooSDHC.kext分享]
 
-[15] 白名单
+[15] [白名单]
  
 四．后记：
 
