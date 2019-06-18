@@ -63,15 +63,15 @@
 
 [9] 
 * [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt)  
-* [Laptop-DSDT-Patch/battery/](file:///Users/kiro/Desktop/Laptop-DSDT-Patch/battery/)
+* [Laptop-DSDT-Patch/battery/](https://github.com/RehabMan/Laptop-DSDT-Patch/tree/master/battery)
 
 [10] 
-* [ssdtPRGen.sh提取制作SSDT]()     
-* [ssdtPRGen.sh的简单标准的用法]() 
+* [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)     
+* [ssdtPRGen.sh的简单标准的用法](http://bbs.pcbeta.com/viewthread-1720374-1-2.html) 
 
-[11] [AppleALC]()
+[11] [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 
-[12] [AppleALC支持的Codecs列表及AppleALC的使用]()
+[12] [AppleALC支持的Codecs列表及AppleALC的使用](https://blog.daliansky.net/AppleALC-Supported-codecs.html)
 
 [13]() [VoodooPS2Controller]()
 
