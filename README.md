@@ -1,11 +1,11 @@
 # 一．前言
 
- ![ThinkPad T530黑苹果6.png](0)
+![ThinkPad T530黑苹果6.png](0) ![ThinkPad T530黑苹果6.png](0)
 
  
 2012年的ThinkPad T530^[1]^笔记本，某宝2年前买的二手，现在Windows10+Mac双系统基本配置完成
 
-![ThinkPad T530黑苹果69.png](1)
+![ThinkPad T530黑苹果69.png](1)![ThinkPad T530黑苹果69.png](1)
 
 
 注意：
