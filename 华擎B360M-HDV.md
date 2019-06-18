@@ -19,7 +19,7 @@
 	- preboot
 	- recovery
 	
-2. 主板声卡为ALC887，根据https://blog.daliansky.net/AppleALC-Supported-codecs.html查阅节点一个一个的试出来：1~7外放有声音但前端插入耳机没声音，所以目前选取inject11声音基本全部正常；
+2. 主板声卡为ALC887，根据https://blog.daliansky.net/AppleALC-Supported-codecs.html 查阅节点一个一个的试出来：1~7外放有声音但前端插入耳机没声音，所以目前选取inject11声音基本全部正常；
 
 
 
