@@ -30,7 +30,7 @@
 	* [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt) <sup>[9]</sup>
 	* 可以全部在DSDT里面打补丁
 	* [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)     
-	* [ssdtPRGen.sh的简单标准的用法]() <sup>[10]</sup>
+	* [ssdtPRGen.sh的简单标准的用法](http://bbs.pcbeta.com/viewthread-1720374-1-2.html) <sup>[10]</sup>
 9. AppleALC原版<sup>[11]</sup> 没修改过Codec，仅Audio注入<sup>[12]</sup> 30，基本正常，可以自动识别并切换外放和耳机
 10. 触摸板驱动：ApplePS2SmartTouchPad.kext红点无法使用，所以换了VoodooPS2Controller<sup>[13]</sup>，仅Win和Alt键映射反了，其他正常（单击需要在系统偏好设置->鼠标 看看勾选没，起初没勾选还以为驱动有问题^-^|||）
 11. SDHC卡槽驱动：VoodooSDHC.kext<sup>[14]</sup>
