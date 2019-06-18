@@ -42,9 +42,9 @@
 ---
 AppleALC使用方法：
 
-1. 下载最新AppleALC：https://github.com/acidanthera/AppleALC/releases放进lilu同级目录
-2. 删掉VoodooHDA万能声卡驱动
-3. 查阅Alc887节点，Audio注入11重启（无效的话一个一个试https://blog.daliansky.net/AppleALC-Supported-codecs.html）
+下载最新AppleALC：https://github.com/acidanthera/AppleALC/releases放进lilu同级目录
+删掉VoodooHDA万能声卡驱动
+查阅Alc887节点，Audio注入11重启（无效的话一个一个试https://blog.daliansky.net/AppleALC-Supported-codecs.html）
 
 综上，经轻度体验后感觉基本完美
 感谢各位！
