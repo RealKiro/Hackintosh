@@ -47,11 +47,11 @@
 
 [1] [时隔一年余，T530再装黑苹果，基本完美](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1662532&highlight=T530)
 
-[2] [NVS5400不能驱动，放弃了独显]()
+[2] [NVS5400不能驱动，放弃了独显](https://xratzh.com/2017/12/26/T430安装折腾macOS/)
 
-[3] [T530 白名单解决方案！！！]()
+[3] [T530 白名单解决方案！！！](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1590994&highlight=T530)
 
-[4] [关于黑苹果下修正ThinkPad小红点飘移的探讨]()
+[4] [关于黑苹果下修正ThinkPad小红点飘移的探讨](file:///Users/kiro/Desktop/ThinkPad%20T530黑苹果.html#pid48732925)
 
 [5] [黑果小兵]()
 
