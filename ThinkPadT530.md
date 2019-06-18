@@ -12,6 +12,7 @@
 1. 独显[NVS5400无解](https://xratzh.com/2017/12/26/T430安装折腾macOS/)，只能驱动核显（DSDT方式成功驱动）<sup>[2]</sup>
 2. 无线网卡默认为Intel，无解（由于联想、HP的BIOS有无线网卡白名单，不在白名单内的无线网卡型号只要用了就进不了任何系统引导，BIOS也进不了），建议使用USB无线网卡（有能力的可以根据其他教程刷白名单）<sup>[3]</sup>
 3. [ThinkPad小红点漂移](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794564&highlight=%B9%D8%D3%DA%BA%DA%C6%BB%B9%FB%CF%C2%D0%DE%D5%FDThinkPad%D0%A1%BA%EC%B5%E3%C6%AE%D2%C6%B5%C4%CC%BD%CC%D6)太灵敏了，需要改<sup>[4]</sup>
+
 ---
  
 
@@ -24,7 +25,7 @@
 
 1. 推荐镜像：[黑果小兵](https://blog.daliansky.net)   <sup>[5]</sup> 或   [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len) <sup>[6]</sup>
 二者总有一个默认配置能进系统的，不能进说明你机子不是主流需要爬贴用[相同机型的EFI](http://bbs.pcbeta.com/viewthread-1795904-1-1.html) <sup>[7]</sup> 替换
- 
+ -[x] EFI
 4. [DSDT-SSDT教程](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455) <sup>[8]</sup> ：建议看视频操作
 - [x] 可以驱动核显、亮度调节、电源管理、USB驱动等，不需要有编程基础
 	* [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt) <sup>[9]</sup>
