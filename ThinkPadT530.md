@@ -25,7 +25,7 @@
 
 1. 推荐镜像：[黑果小兵](https://blog.daliansky.net)   <sup>[5]</sup> 或   [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len) <sup>[6]</sup>
 二者总有一个默认配置能进系统的，不能进说明你机子不是主流需要爬贴用[相同机型的EFI](http://bbs.pcbeta.com/viewthread-1795904-1-1.html) <sup>[7]</sup> 替换
- - [x] EFI不是万能药，需要自己修改
+ - [x] EFI不是万能药，需要自己根据自己的配置作修改
  
 4. [DSDT-SSDT教程](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455) <sup>[8]</sup> ：建议看视频操作
 - [x] 可以驱动核显、亮度调节、电源管理、USB驱动等，不需要有编程基础
