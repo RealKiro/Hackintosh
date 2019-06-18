@@ -35,7 +35,7 @@
 ---
 1. 显卡AMD Radeon R9 270X直接免驱
 
-2. Clover启动无法倒计时进入系统参考：http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1786366&highlight=%B5%B9%BC%C6%CA%B1解决
+2. [Clover启动无法倒计时进入系统解决](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1786366&highlight=%B5%B9%BC%C6%CA%B1)
 
 3. EFI是Len的可以直接拿来用，所以不放出来了。如果黑果小兵的EFI没法用可以试试Len的，兼容性做的很棒！
 
