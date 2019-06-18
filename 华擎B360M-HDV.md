@@ -9,7 +9,8 @@
 1. 基于[Len'DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)制作，config直接使用：
 >   config八代台式机核显hd630(需设置核显显存大于64M).plist 
 
-	初次能直接进系统，未做多大改动；
+	初次能直接进系统，未做多大改动
+
  - EFI不是万能药，需要自己根据自己的配置作修改
  - 同Windows一样，系统装好后不能直接食用，需配置适合自己的驱动（一般是 显卡+声卡）
  - 驱动文件目录位于
@@ -17,7 +18,7 @@
  	>>kext
  	>>>other
 
- 	- 基本驱动都默认给你添加好了，需要什么别的驱动可以自己添加
+ - 基本驱动都默认给你添加好了，需要什么别的驱动可以自己添加
 
  - 隐藏多余引导项：
 	- preboot
