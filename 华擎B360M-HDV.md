@@ -12,7 +12,9 @@
  	>EFI
  	>>kext
  	>>>other
- 需要什么别的驱动自己
+
+ 	- 需要什么别的驱动可以自己添加
+
  - 隐藏多余引导项：
 	- preboot
 	- recovery
