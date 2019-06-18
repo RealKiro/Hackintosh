@@ -1,7 +1,7 @@
 # 一．前言
 ![配置](https://i.imgur.com/mNrrsPx.png)
 
-2012年的ThinkPad T530^[1]^笔记本，某宝2年前买的二手，现在Windows10+Mac双系统基本配置完成
+2012年的ThinkPad T530 ^[1]^ 笔记本，某宝2年前买的二手，现在Windows10+Mac双系统基本配置完成
 
 ![title](https://i.imgur.com/PHtV0hJ.png)
 
