@@ -5,7 +5,7 @@
 - AMD Radeon R9 270X
 
 
-1.基于[Len'DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)制作，config直接使用config八代台式机核显hd630(需设置核显显存大于64M).plist（初次能直接进系统），未做多大改动；
+1.基于[Len'DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)制作，config直接使用++config八代台式机核显hd630(需设置核显显存大于64M).plist（初次能直接进系统），未做多大改动；
 
 2.主板声卡为ALC887，根据https://blog.daliansky.net/AppleALC-Supported-codecs.html查阅节点一个一个的试出来：1~7外放有声音但前端插入耳机没声音，所以目前选取inject11声音基本全部正常；
 
