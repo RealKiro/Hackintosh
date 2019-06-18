@@ -27,7 +27,7 @@
 ![title](https://i.imgur.com/HKTOOSk.jpg)
 
 2. 主板声卡为ALC887，根据https://blog.daliansky.net/AppleALC-Supported-codecs.html 查阅节点一个一个的试出来：1~7外放有声音但前端插入耳机没声音，所以目前选取inject11声音基本全部正常；
-
+![title](https://i.imgur.com/RvNd9eH.jpg)
 
 
 3. 无法关机(会重启系统)的解决办法参考了http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1804882&highlight=%B9%D8%BB%FA ，已正常关机；
