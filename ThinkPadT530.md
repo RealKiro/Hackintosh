@@ -59,11 +59,11 @@
    
 [7] [相同机型的EFI](http://bbs.pcbeta.com/viewthread-1795904-1-1.html)
 
-[8] [使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455) 
+[8] [使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455
 
 [9] 
 * [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt)  
-* [Laptop-DSDT-Patch/battery/]()
+* [Laptop-DSDT-Patch/battery/](file:///Users/kiro/Desktop/Laptop-DSDT-Patch/battery/)
 
 [10] 
 * [ssdtPRGen.sh提取制作SSDT]()     
