@@ -22,7 +22,7 @@
 
 成功上MacOS Mojave10.14.4
 
-1. 推荐镜像：黑果小兵   <sup>[5]</sup> 或   Len’S DMG <sup>[6]</sup>
+1. 推荐镜像：[黑果小兵](https://blog.daliansky.net)   <sup>[5]</sup> 或   Len’S DMG <sup>[6]</sup>
 二者总有一个默认配置能进系统的，不能进说明你机子不是主流需要爬贴用相同机型的EFI <sup>[7]</sup> 替换
  
 4. DSDT-SSDT教程 <sup>[8]</sup> ：建议看视频操作
