@@ -61,9 +61,13 @@
 
 [8] [使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]]() 
 
-[9] [ThinkPad T530等型号电池显示补丁]  [Laptop-DSDT-Patch/battery/]()
+[9] 
+* [ThinkPad T530等型号电池显示补丁]()  
+* [Laptop-DSDT-Patch/battery/]()
 
-[10] [ssdtPRGen.sh提取制作SSDT]()     [ssdtPRGen.sh的简单标准的用法]() 
+[10] 
+* [ssdtPRGen.sh提取制作SSDT]()     
+* [ssdtPRGen.sh的简单标准的用法]() 
 
 [11] [AppleALC]()
 
