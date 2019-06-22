@@ -1,0 +1,83 @@
+48:226  2:628  Found UEFI Acpi 2.0 RSDP at DF7FE014
+48:226  0:000  Saving ACPI tables from RSDP DF7FE014 to EFI\CLOVER\ACPI\origin ...
+48:226  0:000   DF7FE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+48:226  0:000    (Xsdt: DF7FE170, Rsdt: DF7FE0D4)
+48:226  0:000    DF7FE170: 'XSDT', 'TP-G4', Rev: 1, Len: 196
+48:226  0:000    DF7FE0D4: 'RSDT', 'TP-G4', Rev: 1, Len: 116
+48:226  0:000    Tables in Xsdt: 20
+48:226  0:000    0. DF7E7000: 'FACP', 'TP-G4', Rev: 5, Len: 268
+48:226  0:000        (Dsdt: DF7E9000, Facs: DF75A000, XDsdt: DF7E9000, XFacs: 0)
+48:226  0:000        DF7E9000: 'DSDT', 'TP-G4', Rev: 1, Len: 66737
+48:230  0:003        DF75A000: 'FACS', Ver: 1, Len: 64
+48:230  0:000    1. DF7FD000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+48:230  0:000    2. DF7FC000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+48:230  0:000    3. DF7FB000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+48:230  0:000    4. DF7FA000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+48:230  0:000    5. DF7E5000: 'HPET', 'TP-G4', Rev: 1, Len: 56
+48:230  0:000    6. DF7E4000: 'APIC', 'TP-G4', Rev: 1, Len: 152
+48:230  0:000    7. DF7E3000: 'MCFG', 'TP-G4', Rev: 1, Len: 60
+48:230  0:000    8. DF7E2000: 'ECDT', 'TP-G4', Rev: 1, Len: 82
+48:230  0:000    9. DF7E1000: 'FPDT', 'TP-G4', Rev: 1, Len: 100
+48:230  0:000    10. DF7E8000: 'ASF!', 'TP-G4', Rev: 32, Len: 165
+48:230  0:000    11. DF7E0000: 'UEFI', 'TP-G4', Rev: 1, Len: 62
+48:230  0:000    12. DF7DF000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+48:230  0:000    13. DF7DE000: 'MSDM', 'TP-G4', Rev: 3, Len: 85
+48:230  0:000    14. DF7DD000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3253
+48:230  0:000    15. DF7DC000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+48:230  0:000    16. DF7DB000: 'DMAR', 'SNB', Rev: 1, Len: 128
+48:230  0:000    17. DF7DA000: 'UEFI', 'TP-G4', Rev: 1, Len: 658
+48:230  0:000    18. DF7D9000: 'DBG2', 'TP-G4', Rev: 0, Len: 233
+48:230  0:000    19. DF7D8000: 'BGRT', 'TP-G4', Rev: 0, Len: 56
+48:230  0:000    Tables in Rsdt: 20
+48:230  0:000    0. DF7E6000: 'FACP', 'TP-G4', Rev: 4, Len: 244
+48:230  0:000        (Dsdt: DF7E9000, Facs: DF75A000, XDsdt: 0, XFacs: 0)
+48:230  0:000        DF7E9000: 'DSDT', 'TP-G4', Rev: 1, Len: 66737
+48:233  0:003        DF75A000: 'FACS', Ver: 1, Len: 64
+48:233  0:000    1. DF7FD000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+48:233  0:000    2. DF7FC000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+48:233  0:000    3. DF7FB000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+48:233  0:000    4. DF7FA000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+48:233  0:000    5. DF7E5000: 'HPET', 'TP-G4', Rev: 1, Len: 56
+48:233  0:000    6. DF7E4000: 'APIC', 'TP-G4', Rev: 1, Len: 152
+48:233  0:000    7. DF7E3000: 'MCFG', 'TP-G4', Rev: 1, Len: 60
+48:233  0:000    8. DF7E2000: 'ECDT', 'TP-G4', Rev: 1, Len: 82
+48:233  0:000    9. DF7E1000: 'FPDT', 'TP-G4', Rev: 1, Len: 100
+48:233  0:000    10. DF7E8000: 'ASF!', 'TP-G4', Rev: 32, Len: 165
+48:233  0:000    11. DF7E0000: 'UEFI', 'TP-G4', Rev: 1, Len: 62
+48:233  0:000    12. DF7DF000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+48:233  0:000    13. DF7DE000: 'MSDM', 'TP-G4', Rev: 3, Len: 85
+48:233  0:000    14. DF7DD000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3253
+48:233  0:000    15. DF7DC000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+48:233  0:000    16. DF7DB000: 'DMAR', 'SNB', Rev: 1, Len: 128
+48:233  0:000    17. DF7DA000: 'UEFI', 'TP-G4', Rev: 1, Len: 658
+48:233  0:000    18. DF7D9000: 'DBG2', 'TP-G4', Rev: 0, Len: 233
+48:234  0:000    19. DF7D8000: 'BGRT', 'TP-G4', Rev: 0, Len: 56
+48:234  0:000  Found UEFI Acpi 1.0 RSDP at DF7FE000
+48:234  0:000  Printing ACPI tables from RSDP DF7FE000 ...
+48:234  0:000   DF7FE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+48:234  0:000    (Rsdt: DF7FE038)
+48:234  0:000    DF7FE038: 'RSDT', 'TP-G4', Rev: 1, Len: 116
+48:234  0:000    Tables in Rsdt: 20
+48:234  0:000    0. DF7E6000: 'FACP', 'TP-G4', Rev: 4, Len: 244
+48:234  0:000        (Dsdt: DF7E9000, Facs: DF75A000, XDsdt: 0, XFacs: 0)
+48:234  0:000        DF7E9000: 'DSDT', 'TP-G4', Rev: 1, Len: 66737
+48:237  0:003        DF75A000: 'FACS', Ver: 1, Len: 64
+48:237  0:000    1. DF7FD000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+48:237  0:000    2. DF7FC000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+48:237  0:000    3. DF7FB000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+48:237  0:000    4. DF7FA000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+48:237  0:000    5. DF7E5000: 'HPET', 'TP-G4', Rev: 1, Len: 56
+48:237  0:000    6. DF7E4000: 'APIC', 'TP-G4', Rev: 1, Len: 152
+48:237  0:000    7. DF7E3000: 'MCFG', 'TP-G4', Rev: 1, Len: 60
+48:237  0:000    8. DF7E2000: 'ECDT', 'TP-G4', Rev: 1, Len: 82
+48:237  0:000    9. DF7E1000: 'FPDT', 'TP-G4', Rev: 1, Len: 100
+48:237  0:000    10. DF7E8000: 'ASF!', 'TP-G4', Rev: 32, Len: 165
+48:237  0:000    11. DF7E0000: 'UEFI', 'TP-G4', Rev: 1, Len: 62
+48:237  0:000    12. DF7DF000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+48:237  0:000    13. DF7DE000: 'MSDM', 'TP-G4', Rev: 3, Len: 85
+48:237  0:000    14. DF7DD000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3253
+48:237  0:000    15. DF7DC000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+48:237  0:000    16. DF7DB000: 'DMAR', 'SNB', Rev: 1, Len: 128
+48:237  0:000    17. DF7DA000: 'UEFI', 'TP-G4', Rev: 1, Len: 658
+48:237  0:000    18. DF7D9000: 'DBG2', 'TP-G4', Rev: 0, Len: 233
+48:237  0:000    19. DF7D8000: 'BGRT', 'TP-G4', Rev: 0, Len: 56
