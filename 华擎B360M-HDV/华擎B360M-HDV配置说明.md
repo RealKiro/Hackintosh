@@ -82,4 +82,6 @@
 
 [7] [黑苹果必备：Intel核显platform ID整理及smbios速查表](https://blog.daliansky.net/Intel-core-display-platformID-finishing.html)
 
-[8]
+[8] [[交流] 新手常见(五国)(-v图)错误解决(原版,破解kernel,补丁kext下载)](http://bbs.pcbeta.com/viewthread-863656-1-1.html)
+
+[9] 
