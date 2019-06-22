@@ -55,7 +55,7 @@
 ---
 	AppleALC使用方法：
 
-	* [下载最新AppleALC](https://github.com/acidanthera/AppleALC/releases) 放进lilu同级目录
+	* [下载最新AppleALC](https://github.com/acidanthera/AppleALC/releases)放进lilu同级目录
 
 	* 删掉VoodooHDA万能声卡驱动
 
