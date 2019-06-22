@@ -128,7 +128,7 @@
 
 [30] [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 
-[31] []()
+[31] [AppleALC支持的Codecs列表及AppleALC的使用](https://blog.daliansky.net/AppleALC-Supported-codecs.html)
 
 [32] []()
 
