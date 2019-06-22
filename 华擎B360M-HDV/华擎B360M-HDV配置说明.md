@@ -134,7 +134,7 @@
 
 [33] [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 
-[34] []()
+[34] [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
 
 [35] []()
 
