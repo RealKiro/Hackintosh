@@ -25,7 +25,7 @@
  		>>> other
 
  	- 基本驱动都默认给你添加好了，需要什么别的驱动可以自己添加
- 		* 注意USBinjectAll.kext（USB万能驱动）iMac机型最高为19.1，
+ 		* 注意USBinjectAll.kext（USB万能驱动）iMac机型最高为19.1，，机型19.2鼠标或键盘很可能
 
  	- 隐藏多余引导项：
 		- preboot
