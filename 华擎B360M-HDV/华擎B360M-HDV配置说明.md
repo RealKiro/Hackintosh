@@ -9,7 +9,7 @@
 1. 基于[Len'DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)配置，config可直接使用：
 	>   config八代台式机核显hd630(需设置核显显存大于64M).plist 
 
-	-  初次能直接进系统，未做多大改动（以下大部分均在[Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)内修改）：
+	-  初次不需要改动就能直接进系统，未做多大改动（以下大部分均在[Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)内修改）：
 		* 移除多余引导项，添加 有EFI备份的其他盘号 使其在Clover引导隐藏
 		* ig-platform-id 改为3e910003或3e920003
 		* 引导参数保持默认LastBootedVolume，启动时间改为6S（可自动选中上一次打开的系统引导）
