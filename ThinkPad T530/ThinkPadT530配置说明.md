@@ -47,7 +47,7 @@
 
 ---
 
-三.参考
+# 三.参考
 
  
 
@@ -85,7 +85,9 @@
 
 [15] [白名单](http://bbs.pcbeta.com/search.php?mod=forum&searchid=700&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%B0%D7%C3%FB%B5%A5)
  
-四．后记：
+---
+
+# 一级标题四．后记：
 
 1. Codec提取了但教程还没看，感觉有点复杂
 2. 参考引用都是带超链接的可以直接点开，没有链接说明编辑器有问题不是我有问题，后续远景如果能支持MarkDown语法编辑就更好了
