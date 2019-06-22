@@ -9,12 +9,12 @@
 1. 基于[Len'DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)制作，config直接使用：
 >   config八代台式机核显hd630(需设置核显显存大于64M).plist 
 
-	初次能直接进系统，未做多大改动
+	初次能直接进系统，未做多大改动：
 	- 移除多余引导项，添加有EFI备份的其他盘号使其在Clover引导隐藏
 	- ig-platform-id 改为3e910003或3e920003
 	- 引导参数保持默认LastBootedVolume，启动时间改为6S（可自动选中上一次打开的系统引导）
 	- 声卡ID注入11
-	- 
+	- 开机后正常，去掉全部ACPI设置
 
  - EFI不是万能药，需要自己根据自己的配置作修改
  - 同Windows一样，系统装好后不能直接食用，需配置适合自己的驱动（一般是 显卡+声卡）
