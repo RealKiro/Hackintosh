@@ -122,22 +122,24 @@
 
 [27] [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/viewthread-1794564-1-1.html)
 
-[28] [OS-X-Voodoo-PS2-Controller源码](https://github.com/tluck/OS-X-Voodoo-PS2-Controller)
+*  [OS-X-Voodoo-PS2-Controller源码](https://github.com/tluck/OS-X-Voodoo-PS2-Controller)
 
-[29] [OS-X-Voodoo-PS2-Controller](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)
+*  [OS-X-Voodoo-PS2-Controller](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)
 
-[30] [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
+*  [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 
-[31] [AppleALC支持的Codecs列表及AppleALC的使用](https://blog.daliansky.net/AppleALC-Supported-codecs.html)
+*  [AppleALC支持的Codecs列表及AppleALC的使用](https://blog.daliansky.net/AppleALC-Supported-codecs.html)
 
-[32] [黑苹果定制声卡驱动（ALC892为例)](https://www.jianshu.com/p/29a74f0664f1)
+*  [黑苹果定制声卡驱动（ALC892为例)](https://www.jianshu.com/p/29a74f0664f1)
 
-[33] [AppleALC](https://github.com/acidanthera/AppleALC/releases)
+*  [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 
-[34] [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
+*  [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
 
-[35] [Enable macOS HiDPI](https://github.com/xzhih/one-key-hidpi)
+*  [Enable macOS HiDPI](https://github.com/xzhih/one-key-hidpi)
 
-[36] [改为19.2机型，usb端口不识别](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1815666&highlight=19.2)
+*  [改为19.2机型，usb端口不识别](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1815666&highlight=19.2)
 
-[37] [黑苹果引导工具 Clover 配置详解](https://www.jianshu.com/p/b156b0177a24)
+*  [黑苹果引导工具 Clover 配置详解](https://www.jianshu.com/p/b156b0177a24)
+
+* 
