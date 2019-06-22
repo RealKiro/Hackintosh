@@ -43,7 +43,7 @@
 
 
 5. 笔记本显示屏改装为副屏，双显示器无法同时开启，否则开机要么副屏不是花屏就是绿屏，要么副屏息屏而主屏画面变蓝显示器识别为副屏（主DP 副HDMI；
-- [x] 解决办法：不需要插拔线，每次开机把主屏关机等进系统后再把主屏打开双屏就都正常了。
+	- [x] 解决办法：不需要插拔线，每次开机把主屏关机等进系统后再把主屏打开双屏就都正常了。
 
 ---
 1. 显卡AMD Radeon R9 270X直接免驱
@@ -53,12 +53,12 @@
 3. EFI是Len的可以直接拿来用，所以不放出来了。如果黑果小兵的EFI没法用可以试试Len的，兼容性做的很棒！
 
 ---
-AppleALC使用方法：
+	AppleALC使用方法：
 
-- 下载最新AppleALC：https://github.com/acidanthera/AppleALC/releases
+	- 下载最新AppleALC：https://github.com/acidanthera/AppleALC/releases
  放进lilu同级目录
-- 删掉VoodooHDA万能声卡驱动
-- 查阅Alc887节点，Audio注入11重启（无效的话一个一个试https://blog.daliansky.net/AppleALC-Supported-codecs.html ）
+	- 删掉VoodooHDA万能声卡驱动
+	- 查阅Alc887节点，Audio注入11重启（无效的话一个一个试https://blog.daliansky.net/AppleALC-Supported-codecs.html ）
 
 综上，经轻度体验后感觉基本完美
 感谢各位！
