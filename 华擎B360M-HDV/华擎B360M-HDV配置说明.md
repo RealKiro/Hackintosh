@@ -122,7 +122,7 @@
 
 [27] [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/viewthread-1794564-1-1.html)
 
-[28] [OS-X-Voodoo-PS2-Controller]()
+[28] [OS-X-Voodoo-PS2-Controller源码](https://github.com/tluck/OS-X-Voodoo-PS2-Controller)
 
 [29] []()
 
