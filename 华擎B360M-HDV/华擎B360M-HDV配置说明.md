@@ -124,9 +124,9 @@
 
 [28] [OS-X-Voodoo-PS2-Controller源码](https://github.com/tluck/OS-X-Voodoo-PS2-Controller)
 
-[29] []()
+[29] [OS-X-Voodoo-PS2-Controller](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)
 
-[30] []()
+[30] [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 
 [31] []()
 
