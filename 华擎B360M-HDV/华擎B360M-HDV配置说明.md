@@ -68,15 +68,15 @@
 
 # 参考
 
-[1] [macOS Mojave 的硬件兼容性列表](https://github.com/CrazyPegAsus/macOS-Mojave-Compatibility-hardware-list)
+*  [macOS Mojave 的硬件兼容性列表](https://github.com/CrazyPegAsus/macOS-Mojave-Compatibility-hardware-list)
 
-[2] [黑果小兵](https://blog.daliansky.net/)
+*  [黑果小兵](https://blog.daliansky.net/)
 
-[3] [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)
+*  [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)
 
-[4] [ASROCK B360M-HDV_Hackintosh EFI](https://github.com/kennydiff/B360M-HDV_Hackin)
+*  [ASROCK B360M-HDV_Hackintosh EFI](https://github.com/kennydiff/B360M-HDV_Hackin)
 
-[5] [【原创工具】CPU-S轻松检测CPU信息和变频档位，还可生成变频SSDT](http://bbs.pcbeta.com/viewthread-1698338-1-1.html)
+*  [CPU-S轻松检测CPU信息和变频档位，还可生成变频SSDT](http://bbs.pcbeta.com/viewthread-1698338-1-1.html)
 
 *  [暂时只适用于10.13的N卡驱动nvidia-drivers](https://www.tonymacx86.com/nvidia-drivers/)
 
@@ -142,4 +142,4 @@
 
 *  [黑苹果引导工具 Clover 配置详解](https://www.jianshu.com/p/b156b0177a24)
 
-* 
+* [balenaEtcher](https://www.balena.io/etcher/)
