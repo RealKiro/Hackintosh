@@ -78,4 +78,8 @@
 
 [5] [【原创工具】CPU-S轻松检测CPU信息和变频档位，还可生成变频SSDT](http://bbs.pcbeta.com/viewthread-1698338-1-1.html)
 
-[6][暂时只适用于10.13的N卡驱动nvidia-drivers](https://www.tonymacx86.com/nvidia-drivers/)
+[6] [暂时只适用于10.13的N卡驱动nvidia-drivers](https://www.tonymacx86.com/nvidia-drivers/)
+
+[7] [黑苹果必备：Intel核显platform ID整理及smbios速查表](https://blog.daliansky.net/Intel-core-display-platformID-finishing.html)
+
+[8]
