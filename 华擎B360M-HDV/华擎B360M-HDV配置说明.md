@@ -116,13 +116,13 @@
 
 [24] [对笔记本的 DSDT／SSDT 打补丁](https://blog.csdn.net/wr132/article/details/54798754)
 
-[25] []()
+[25] [Mojave折腾笔记本电脑触摸板驱动心得](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1805317&highlight=%B4%A5%C3%FE%B0%E5)
 
-[26] []()
+[26] [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794564&page=2#pid48732925)
 
-[27] []()
+[27] [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/viewthread-1794564-1-1.html)
 
-[28] []()
+[28] [OS-X-Voodoo-PS2-Controller]()
 
 [29] []()
 
