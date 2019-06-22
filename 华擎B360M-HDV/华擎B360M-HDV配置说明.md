@@ -65,3 +65,5 @@
 
 ---
 
+# 参考
+1.[【原创工具】CPU-S轻松检测CPU信息和变频档位，还可生成变频SSDT](http://bbs.pcbeta.com/viewthread-1698338-1-1.html)
