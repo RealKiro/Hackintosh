@@ -102,11 +102,11 @@
 
 [17] [联合DSDT和SSDT进行反编译——减少DSDT和SSDT错误的尝试](http://bbs.pcbeta.com/viewthread-1475332-1-1.html)
 
-[18] []()
+[18] [ssdtPRGen.sh](https://github.com/Piker-Alpha/ssdtPRGen.sh)
 
-[19] []()
+[19] [[原创内容] ssdtPRGen.sh的简单标准的用法（另外纠正一个论坛一个普遍的错误的ssdtPRGen.sh用法）](http://bbs.pcbeta.com/viewthread-1720374-1-2.html)
 
-[20] []()
+[20] [[教程] ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)
 
 [21] []()
 
