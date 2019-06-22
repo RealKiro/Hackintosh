@@ -136,7 +136,7 @@
 
 [34] [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
 
-[35] []()
+[35] [Enable macOS HiDPI](https://github.com/xzhih/one-key-hidpi)
 
 [36] []()
 
