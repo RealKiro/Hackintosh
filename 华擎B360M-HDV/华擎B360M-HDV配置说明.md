@@ -92,9 +92,9 @@
 
 [12] [hotpatch详解](https://www.jianshu.com/p/7e9c045eef6a)
 
-[13] []()
+[13] [[教程] 装完系统后的一件事，Clover Acpi hotpatch给机器打补丁。](http://bbs.pcbeta.com/viewthread-1802902-1-3.html)
 
-[14] []()
+[14] [【指南】给笔记本的DSDT/SSDTs打补丁]()
 
 [15] []()
 
