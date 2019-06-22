@@ -138,6 +138,6 @@
 
 [35] [Enable macOS HiDPI](https://github.com/xzhih/one-key-hidpi)
 
-[36] []()
+[36] [改为19.2机型，usb端口不识别](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1815666&highlight=19.2)
 
-[37] []()
+[37] [黑苹果引导工具 Clover 配置详解](https://www.jianshu.com/p/b156b0177a24)
