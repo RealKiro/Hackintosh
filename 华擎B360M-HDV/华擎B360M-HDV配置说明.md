@@ -38,7 +38,7 @@
 ![title](https://i.imgur.com/RvNd9eH.jpg)
 
 
-3. 无法关机(会重启系统)的解决办法参考了http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1804882&highlight=%B9%D8%BB%FA ，已正常关机；
+3. 无法关机(会重启系统)的解决办法参考了:[安装10.14后无法关机(会重启系统)的解决办法](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1804882&highlight=%B9%D8%BB%FA) ，已正常关机；
 
 
 4. 图片预览打不开？在BIOS高级选项里面开启IGPU后正常（核显加速？）；
