@@ -144,3 +144,6 @@
 
 * [balenaEtcher](https://www.balena.io/etcher/)
 
+---
+# ⚠️
+参考部分有些是笔记本配置指南
