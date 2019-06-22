@@ -84,4 +84,30 @@
 
 [8] [[交流] 新手常见(五国)(-v图)错误解决(原版,破解kernel,补丁kext下载)](http://bbs.pcbeta.com/viewthread-863656-1-1.html)
 
-[9] 
+[9] [黑苹果（Hackintosh）的折腾时光](https://www.jianshu.com/p/bd57a9324f08)
+
+[] 
+
+[] 
+
+[] 
+
+[] 
+
+[] 
+
+[] 
+
+[] 
+
+[] 
+
+[] 
+
+[] 
+
+[] 
+
+[] 
+
+[] 
