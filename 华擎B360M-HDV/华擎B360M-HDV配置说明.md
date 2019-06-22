@@ -94,13 +94,13 @@
 
 [13] [[教程] 装完系统后的一件事，Clover Acpi hotpatch给机器打补丁。](http://bbs.pcbeta.com/viewthread-1802902-1-3.html)
 
-[14] [【指南】给笔记本的DSDT/SSDTs打补丁]()
+[14] [【指南】给笔记本的DSDT/SSDTs打补丁](https://www.kancloud.cn/chandler/mac_os/482278#ACPI_205)
 
-[15] []()
+[15] [[交流] 通过DSDT和SSDT成功实现变频的必要步骤［综合信息帖］](http://bbs.pcbeta.com/viewthread-1578829-1-1.html)
 
-[16] []()
+[16] [[教程] [授权翻译] 使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455)
 
-[17] []()
+[17] [联合DSDT和SSDT进行反编译——减少DSDT和SSDT错误的尝试](http://bbs.pcbeta.com/viewthread-1475332-1-1.html)
 
 [18] []()
 
