@@ -112,7 +112,7 @@
 
 [22] [[DSDT] 10.13.X-10.14.5 开启建兴/浦科特/海力士等NVMe固态原生支持补丁 解决硬盘不识别](http://bbs.pcbeta.com/viewthread-1774117-1-1.html)
 
-[23] []()
+[23] [【新手教程】轻轻松松驱动AMD显卡，适用于所有A卡的通用解决办法](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1637874&highlight=%C7%E1%C7%E1%CB%C9%CB%C9%C7%FD%B6%AFAMD)
 
 [24] []()
 
