@@ -88,9 +88,9 @@
 
 [10] [Hackintosh黑苹果长期维护机型EFI及安装教程整理](https://github.com/daliansky/Hackintosh)
 
-[11] []()
+[11] [【黑果小兵】[远景首发]Hackintool(原Intel FB-Patcher)使用教程及插入姿势](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794948&highlight=fb)
 
-[12] []()
+[12] [hotpatch详解](https://www.jianshu.com/p/7e9c045eef6a)
 
 [13] []()
 
