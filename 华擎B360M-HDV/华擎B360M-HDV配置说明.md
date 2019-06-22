@@ -108,6 +108,8 @@
 
 [20] [[教程] ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)
 
-[21] []()
+[21] [充分运用MaciASL软件的补丁源－让黑苹果高手帮你完善DSDT](http://bbs.pcbeta.com/viewthread-1576959-1-1.html)
 
-[22] []()
+[22] [[DSDT] 10.13.X-10.14.5 开启建兴/浦科特/海力士等NVMe固态原生支持补丁 解决硬盘不识别](http://bbs.pcbeta.com/viewthread-1774117-1-1.html)
+
+[] []()
