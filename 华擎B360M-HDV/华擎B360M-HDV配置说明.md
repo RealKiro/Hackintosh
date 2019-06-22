@@ -130,9 +130,9 @@
 
 [31] [AppleALC支持的Codecs列表及AppleALC的使用](https://blog.daliansky.net/AppleALC-Supported-codecs.html)
 
-[32] []()
+[32] [黑苹果定制声卡驱动（ALC892为例)](https://www.jianshu.com/p/29a74f0664f1)
 
-[33] []()
+[33] [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 
 [34] []()
 
