@@ -109,8 +109,8 @@
 -
 -
 
-MD通用 ^[1]abc 或 MD通用 <sup>[1]abc</sup>
+MD通用 ^[1]abc  或  MD通用 <sup>[1]abc</sup>
 
-MD通用 ^[2] abc 
+MD通用 ^[2] abc  （只要中间有空格键就不会变上下标） 
 
 本软件中错误的部分 ^[3]abc^ 
