@@ -109,6 +109,6 @@
 -
 -
 
-MD通用 ^[1]abc
+MD通用 ^[1]abc 或 MD通用 <sup>[1]abc</sup>
 MD通用 ^[2] abc
 本软件中错误的部分 ^[3]^ abc
