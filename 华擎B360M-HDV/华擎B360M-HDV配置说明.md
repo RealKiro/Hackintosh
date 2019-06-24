@@ -7,11 +7,11 @@
 ![title](https://i.imgur.com/SzHNSRG.jpg)
 
 1. 基于[Len'DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)配置，其config可直接使用：
-	> config.plist
+	>> config.plist
 
+	> 或
 
-
-	> config八代台式机核显hd630(需设置核显显存大于64M).plist 
+	>> config八代台式机核显hd630(需设置核显显存大于64M).plist 
 
 	- 初次不需要改动就能直接进系统，后面未做多大改动（以下大部分均在[Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)内修改）：
 		* 移除多余引导项，添加 有EFI备份的其他盘号 使其在Clover引导隐藏
