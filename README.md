@@ -1,2 +1,2 @@
 # Hackintosh
-华擎B360M-HDV/ThinkPadT530
++ 华擎B360M-HDV/ThinkPadT530
