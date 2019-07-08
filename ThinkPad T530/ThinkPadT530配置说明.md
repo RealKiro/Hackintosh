@@ -33,7 +33,7 @@
  
 4. [DSDT-SSDT教程](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455) <sup>[8]</sup> ：建议看视频操作
 	- [x] 可以驱动核显、亮度调节、电源管理、USB驱动等，不需要有编程基础
-		* MaciASL有2中版本（rehabman）Acidanthera 的莫名其妙的问题一堆
+		* MaciASL有2中版本（Rehabman和Acidanthera），其中Acidanthera 的莫名其妙的问题一堆，Rehabman的6.2a版好用推荐（0错误）
 		* [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt) <sup>[9]</sup>
 		* 可以全部在DSDT里面打补丁
 		* [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)     
