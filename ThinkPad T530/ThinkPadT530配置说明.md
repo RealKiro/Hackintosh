@@ -71,6 +71,8 @@
 [8] [使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455)
 
 [9] 
+* [Rehabman MaciASL](https://bitbucket.org/RehabMan/)		
+	[Acidanthera](https://github.com/acidanthera/MaciASL/releases)
 * [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt)  
 * [Laptop-DSDT-Patch/battery/](https://github.com/RehabMan/Laptop-DSDT-Patch/tree/master/battery)
 
