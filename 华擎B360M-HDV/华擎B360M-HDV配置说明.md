@@ -156,9 +156,13 @@
 
 * [balenaEtcher](https://www.balena.io/etcher/)
 
-* [OpenCore]()
+---
+
+* [OpenCore](https://github.com/acidanthera/OpenCorePkg)
 
 * [OpenCore驱动]()
+
+* [使用OpenCore安装黑苹果](https://github.com/cattyhouse/oc-guide)
 
 * CPU是AMD的内核补丁：[AMD Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 ---
