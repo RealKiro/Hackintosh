@@ -158,6 +158,8 @@
 
 * [OpenCore]()
 
+* [OpenCore驱动]()
+
 * CPU是AMD的内核补丁：[AMD Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 ---
 # ⚠️
