@@ -20,7 +20,7 @@
 		* 移除多余引导项，添加 有EFI备份的其他盘号 使其在Clover开机引导界面隐藏
 		* ig-platform-id 改为3e920003
 		* 引导参数选择LastBootedVolume，启动时间改为6S（重启电脑后可自动选中上一次打开的系统引导）
-		* 声卡ID注入11
+		* 声卡ID注入11（AppleALC）
 		* 正常开机后，去掉全部引导参数，如 -v 等
 		* 变频： CPU设置 -- HWP开启
 
@@ -34,7 +34,7 @@
 
  	- 基本驱动都默认给你添加好了，需要什么别的驱动可以自己添加
  		* 注意USBinjectAll.kext（USB万能驱动）iMac机型最高为19.1，，机型19.2鼠标或键盘很可能不能用，如需19.2请自己修改
-	- 声卡为万能声卡VoodooHDA.kext,无需注入声卡开机默认能使用；如不想用万能声卡可使用AppleALC.kext,但是必须注入ID或
+	- 声卡为万能声卡VoodooHDA.kext,无需注入声卡开机默认能使用；如不想用万能声卡可使用AppleALC.kext,但是必须注入ID或修改Codec。
 
  	- 隐藏多余引导项：
 		- preboot
