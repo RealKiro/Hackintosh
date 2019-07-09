@@ -156,6 +156,8 @@
 
 * [balenaEtcher](https://www.balena.io/etcher/)
 
+* [OpenCore]()
+
 * CPU是AMD的内核补丁：[AMD Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 ---
 # ⚠️
