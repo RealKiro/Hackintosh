@@ -19,7 +19,7 @@
 	- 初次不需要改动就能直接进系统，后面未做多大改动（以下大部分均在[Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)内修改）：
 		* 移除多余引导项，添加 有EFI备份的其他盘号 使其在Clover开机引导界面隐藏
 		* ig-platform-id 改为3e920003
-		* 引导参数保持默认LastBootedVolume，启动时间改为6S（可自动选中上一次打开的系统引导）
+		* 引导参数保持默认LastBootedVolume，启动时间改为6S（重启电脑后可自动选中上一次打开的系统引导）
 		* 声卡ID注入11
 		* 正常开机后，去掉全部引导参数，如 -v 等
 		* 变频： CPU设置 -- HWP开启
