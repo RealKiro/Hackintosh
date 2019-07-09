@@ -72,7 +72,7 @@
 >> - 查阅Alc887节点，Audio注入11重启（[无效的话一个一个试](https://blog.daliansky.net/AppleALC-Supported-codecs.html )）
 ---
 👌
-综上，经轻度体验后感觉基本完美
+综上，经轻中度体验后感觉基本完美，能作为生产工具使用。
 感谢各位！
 
 ---
