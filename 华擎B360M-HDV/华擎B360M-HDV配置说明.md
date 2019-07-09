@@ -5,9 +5,10 @@
 - AMD Radeon R9 270X
 
 ![title](https://i.imgur.com/SzHNSRG.jpg)
+---
+0. 黑苹果前BIOS设置：
+	![title](https://i.imgur.com/ACC3LZo.png)
 
-- 黑苹果前BIOS设置：
-	
 1. 基于[Len'DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)配置，其config可直接使用：
 	>> config.plist
 
