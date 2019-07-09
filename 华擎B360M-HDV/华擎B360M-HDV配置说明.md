@@ -156,6 +156,7 @@
 
 * [balenaEtcher](https://www.balena.io/etcher/)
 
+* CPU是AMD的内核补丁：
 ---
 # ⚠️
 * BIOS固件千万不要升级，否则容易出问题！建议保持3.1及以下版本。
