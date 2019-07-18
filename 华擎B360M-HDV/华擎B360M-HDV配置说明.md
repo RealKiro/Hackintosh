@@ -2,7 +2,7 @@
 ![title](https://i.imgur.com/w142YXM.jpg)
 - 华擎B360M-HDV 
 - Intel Core i5-8400
-- AMD Radeon R9 270X
+- AMD Radeon R9 270X（免驱卡）
 
 ![title](https://i.imgur.com/SzHNSRG.jpg)
 ---
