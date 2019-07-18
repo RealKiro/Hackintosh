@@ -3,6 +3,7 @@
 + CLOVER引导比较成熟，目前2款机型全部用CLOVER而非Justin的OpenCore
 + 谦虚地说，我只是跨过了黑苹果这道门槛而已，配置好后基本能作为生产工具使用，未出现大问题。
 + 敬请大屌们指正与指导～
+
 + CLOVER boot is more mature, currently 2 models all use CLOVER instead of Justin's OpenCore
 + Modestly speaking, I just crossed the threshold of black apples. After being configured, I can basically use them as production tools without major problems.
 + Please ask the big men to correct and guide ~
