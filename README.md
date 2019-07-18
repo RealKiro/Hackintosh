@@ -9,5 +9,5 @@
 > 目前Clover引导Windows7+Deepin放角落吃灰!
 
 ---
-如果你有 任何问题/
+如果你有 任何问题 / 任何补充 / 任何指正的 还请顺便提交一下 issue
 ![title](https://i.imgur.com/HCwjiv3.jpg)
