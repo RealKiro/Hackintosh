@@ -14,7 +14,7 @@
 > Currently Clover leads Windows7+Deepin to the corner to eat gray!
 ---
 > + Q:this version of Mac OS X isn’t Supported on This Platform 
-> + A:SMBIOS 问题,  引导界面按 O 选择Boot Arga输入 -no_compat_check 就行了
+> + A:SMBIOS 问题,  引导界面按 O 选择Boot Arga输入 -no_compat_check 就行了,以此跳过兼容性检查
 ---
 - 如果你有 【 任何问题 / 任何补充 / 任何指正更正 】的还请顺便提交一下 [issue](https://github.com/RealKiro/Hackintosh/issues/new)说详细点谢谢🙏 ， 可截图直接粘贴
 - If you have [any questions / any supplements / any corrections] please also submit [issue](https://github.com/RealKiro/Hackintosh/issues/new) and say in detail, you can directly paste the screenshot
