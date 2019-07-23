@@ -3,8 +3,9 @@
 - 华擎B360M-HDV 
 - Intel Core i5-8400
 - AMD Radeon R9 270X（免驱卡）
-- 无损更新 acOS Mojave 10.14.6 18G84
+- 无损更新 MacOS Mojave 10.14.6 18G84
 ![title](https://i.imgur.com/SzHNSRG.jpg)
+图片仅作参考
 ---
 0. 黑苹果前BIOS设置：
 	![title](https://i.imgur.com/ACC3LZo.png)
