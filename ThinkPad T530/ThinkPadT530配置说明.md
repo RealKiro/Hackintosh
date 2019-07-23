@@ -4,7 +4,7 @@
 ![配置](https://i.imgur.com/mNrrsPx.png)
 
 2012年的ThinkPad T530 <sup>[1]</sup> 笔记本，某宝2年前买的二手，现在Windows10+Mac双系统基本配置完成
-> 已无损升级10.14.6
+> 已无损升级10.14.6，目前均正常
 
 ![title](https://i.imgur.com/PHtV0hJ.png)
 
