@@ -21,7 +21,7 @@
 
  
 
--[x] 无损更新 MacOS Mojave 10.14.6 18G84
+- [x] 无损更新 MacOS Mojave 10.14.6 18G84
 
 1. 推荐镜像：[黑果小兵](https://blog.daliansky.net)   <sup>[5]</sup> 或   [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len) <sup>[6]</sup>
 二者总有一个默认配置能进系统的，不能进说明你机子不是主流需要爬贴或用[相同机型的EFI](http://bbs.pcbeta.com/viewthread-1795904-1-1.html) <sup>[7]</sup> 替换
