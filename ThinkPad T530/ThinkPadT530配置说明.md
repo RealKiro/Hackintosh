@@ -4,7 +4,6 @@
 ![配置](https://i.imgur.com/mNrrsPx.png)
 
 2012年的ThinkPad T530 <sup>[1]</sup> 笔记本，某宝2年前买的二手，现在Windows10+Mac双系统基本配置完成
-> 已无损升级10.14.6，目前均正常
 
 ![title](https://i.imgur.com/PHtV0hJ.png)
 
@@ -22,7 +21,7 @@
 
  
 
-成功上MacOS Mojave10.14.5
+成功上MacOS Mojave10.14.6
 
 1. 推荐镜像：[黑果小兵](https://blog.daliansky.net)   <sup>[5]</sup> 或   [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len) <sup>[6]</sup>
 二者总有一个默认配置能进系统的，不能进说明你机子不是主流需要爬贴或用[相同机型的EFI](http://bbs.pcbeta.com/viewthread-1795904-1-1.html) <sup>[7]</sup> 替换
