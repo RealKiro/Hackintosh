@@ -8,11 +8,11 @@
 + Modestly speaking, I just crossed the threshold of Hackintosh. After being configured, I can basically use them as production tools without major problems.
 + Please ask the big men to correct and guide ~
 ---
-> 还有一台表哥送的款ASUS N53JF 笔记本，1代（1st gen）CPU i5 460M，核显驱动288M，而且各种问题装了至少10次😓 , 我决定偷懒放弃了。。。
+> 还有一台表哥送的1款“ASUS N53JF”笔记本，1代（1st gen）CPU i5 460M，核显驱动288M，而且各种问题装了至少10次😓 , 我决定偷懒放弃了。。。
 
 > 目前Clover引导Windows7+Deepin放角落吃灰!
 
-> There is also my cousin to send a ASUS N53JF notebook, 1st gen CPU i5 460M, nuclear drive 288M, and various problems installed at least 10 times, I decided to give up. . .
+> There is also my cousin to send a “ASUS N53JF” notebook, 1st gen CPU i5 460M, nuclear drive 288M, and various problems installed at least 10 times, I decided to give up. . .
 > Currently Clover leads Windows7+Deepin to the corner to eat gray!
 ---
 > + Q:this version of Mac OS X isn’t Supported on This Platform 
