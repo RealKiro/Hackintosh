@@ -48,6 +48,11 @@
 
 ![title](https://i.imgur.com/RvNd9eH.jpg)
 
+> AppleALC使用方法：
+	
+>> - [下载最新AppleALC](https://github.com/acidanthera/AppleALC/releases)放进lilu同级目录
+>> - 删掉VoodooHDA万能声卡驱动
+>> - 查阅Alc887节点，Audio注入11重启（[无效的话一个一个试](https://blog.daliansky.net/AppleALC-Supported-codecs.html )）
 
 3. 无法关机(会重启系统)的解决办法参考了:[安装10.14后无法关机(会重启系统)的解决办法](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1804882&highlight=%B9%D8%BB%FA) ，已正常关机；
 
@@ -68,11 +73,7 @@
 3. EFI是 Len 的可以直接拿来用，进系统后只需配置好驱动即可。如果 黑果小兵 的EFI没法用可以试试 Len 的，兼容性做的很棒！
 
 ---
-> AppleALC使用方法：
-	
->> - [下载最新AppleALC](https://github.com/acidanthera/AppleALC/releases)放进lilu同级目录
->> - 删掉VoodooHDA万能声卡驱动
->> - 查阅Alc887节点，Audio注入11重启（[无效的话一个一个试](https://blog.daliansky.net/AppleALC-Supported-codecs.html )）
+
 ---
 👌
 综上，经轻中度体验后感觉基本完美，能作为生产工具使用。
