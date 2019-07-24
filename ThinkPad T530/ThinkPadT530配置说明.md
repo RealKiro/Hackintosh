@@ -35,7 +35,7 @@
 	- [x] 可以驱动核显、亮度调节、电源管理、USB驱动等，不需要有编程基础
 		* MaciASL有2种版本（[Rehabman MaciASL](https://bitbucket.org/RehabMan/)和[Acidanthera MaciASL](https://github.com/acidanthera/MaciASL/releases)），其中Acidanthera 的莫名其妙的问题一堆，Rehabman的6.2a版好用推荐（0错误）
 		* [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt) <sup>[9]</sup>
-		* 可以全部在DSDT里面打补丁
+		* 可以全部在DSDT里面打补丁，但建议不那么做
 		* [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)     
 		* [ssdtPRGen.sh的简单标准的用法](http://bbs.pcbeta.com/viewthread-1720374-1-2.html) <sup>[10]</sup>
 3. [AppleALC原版](https://github.com/acidanthera/AppleALC/releases)<sup>[11]</sup> 没修改过Codec，仅[Audio注入](https://blog.daliansky.net/AppleALC-Supported-codecs.html)<sup>[12]</sup> 30，基本正常，可以自动识别并切换外放和耳机
