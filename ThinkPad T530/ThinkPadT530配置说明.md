@@ -93,7 +93,7 @@
  
 [16] 
 - [Hackintool(原Intel FB-Patcher)使用教程及插入姿势](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
-- [](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
+- [FakePCIID.kext + FakePCIID_XHCIMux.kext等](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
 ---
 
 # 四．后记：
