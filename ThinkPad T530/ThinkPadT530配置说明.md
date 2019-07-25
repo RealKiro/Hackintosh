@@ -91,7 +91,7 @@
 
 [15] [白名单](http://bbs.pcbeta.com/search.php?mod=forum&searchid=700&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%B0%D7%C3%FB%B5%A5)
  
-[16] [Hackintool]()
+[16] [Hackintool使用教程](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
 ---
 
 # 四．后记：
