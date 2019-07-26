@@ -46,6 +46,8 @@
 5. SDHC卡槽驱动：[VoodooSDHC.kext](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1259442&highlight=VoodooSDHC.kext)<sup>[14]</sup>
 	🐷没有通过内建，还在研究中。
 
+	![title](https://i.loli.net/2019/07/26/5d3ab7a521f8b31691.png)
+
 6. 无线网卡驱动：Intel无解，我用的烧录夹刷入BCM94322HM8L（免驱）[白名单](http://bbs.pcbeta.com/search.php?mod=forum&searchid=700&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%B0%D7%C3%FB%B5%A5)后都正常，没有动手能力的建议买USB无线网卡（最好免驱），否则使用有线<sup>[15]</sup>
 
 7. 更新10.14.6后U盘插入显示“USB配件需要电源”无法识别，通过Hackintool定制USB已解决<sup>[16]</sup>
