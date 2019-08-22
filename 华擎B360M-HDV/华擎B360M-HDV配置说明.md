@@ -75,7 +75,7 @@
 
 8. [Clover启动无法倒计时进入系统参考解决方案](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1786366&highlight=%B5%B9%BC%C6%CA%B1)
 
-9. 驱动 fakesmc.kext 替换为 [virtual smc](https://github.com/acidanthera/VirtualSMC/releases) 后 开机速度明显提升，注意1.0.7有问题请用1.0.6版本！
+9. 驱动 fakesmc.kext 替换为 [virtual smc](https://github.com/acidanthera/VirtualSMC/releases) 后 开机速度明显提升，请自行替换；注意1.0.7有问题请用1.0.6版本！
 
 10. EFI是 Len 的可以直接拿来用，进系统后只需配置好驱动即可。如果 黑果小兵 的EFI没法用可以试试 Len 的，兼容性做的很棒！
 
