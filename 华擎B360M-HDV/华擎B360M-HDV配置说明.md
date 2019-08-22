@@ -71,12 +71,13 @@
     Q：黑果每次开机或重启都要求输入iCloud密码？
     A：注销iCloud账户后重新登陆，重启电脑就好了
 
----
-1. 显卡AMD Radeon R9 270X直接免驱
+7. 显卡AMD Radeon R9 270X直接免驱，当初作为小白直接配的时候核显用HDMI接口会黑屏，所以加了块AMD独显
 
-2. [Clover启动无法倒计时进入系统参考解决方案](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1786366&highlight=%B5%B9%BC%C6%CA%B1)
+8. [Clover启动无法倒计时进入系统参考解决方案](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1786366&highlight=%B5%B9%BC%C6%CA%B1)
 
-3. EFI是 Len 的可以直接拿来用，进系统后只需配置好驱动即可。如果 黑果小兵 的EFI没法用可以试试 Len 的，兼容性做的很棒！
+9. 驱动 fakesmc.kext 替换为 virtual smc 后 开机速度明显提升
+
+10. EFI是 Len 的可以直接拿来用，进系统后只需配置好驱动即可。如果 黑果小兵 的EFI没法用可以试试 Len 的，兼容性做的很棒！
 
 👌 综上，经轻中度体验后感觉基本完美，能作为生产工具使用。
 感谢各位！
