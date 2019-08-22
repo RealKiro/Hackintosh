@@ -75,7 +75,7 @@
 
 8. [Clover启动无法倒计时进入系统参考解决方案](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1786366&highlight=%B5%B9%BC%C6%CA%B1)
 
-9. 驱动 fakesmc.kext 替换为 virtual smc 后 开机速度明显提升
+9. 驱动 fakesmc.kext 替换为 [virtual smc](https://github.com/acidanthera/VirtualSMC/releases) 后 开机速度明显提升，注意1.0.7有问题请用1.0.6版本！
 
 10. EFI是 Len 的可以直接拿来用，进系统后只需配置好驱动即可。如果 黑果小兵 的EFI没法用可以试试 Len 的，兼容性做的很棒！
 
@@ -92,9 +92,11 @@
 
 *  [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)
 
+*  [balenaEtcher](https://www.balena.io/etcher/)
+
 *  [ASROCK B360M-HDV_Hackintosh EFI](https://github.com/kennydiff/B360M-HDV_Hackin)
 
-*  [CPU-S轻松检测CPU信息和变频档位，还可生成变频SSDT](http://bbs.pcbeta.com/viewthread-1698338-1-1.html)
+*  [黑苹果引导工具 Clover 配置详解](https://www.jianshu.com/p/b156b0177a24)
 
 *  [暂时只适用于10.13的N卡驱动nvidia-drivers](https://www.tonymacx86.com/nvidia-drivers/)
 
@@ -128,13 +130,15 @@
 
 *  [充分运用MaciASL软件的补丁源－让黑苹果高手帮你完善DSDT](http://bbs.pcbeta.com/viewthread-1576959-1-1.html)
 
+*  [对笔记本的 DSDT／SSDT 打补丁](https://blog.csdn.net/wr132/article/details/54798754)
+
+*  [CPU-S轻松检测CPU信息和变频档位，还可生成变频SSDT](http://bbs.pcbeta.com/viewthread-1698338-1-1.html)
+
 *  [10.13.X-10.14.5 开启建兴/浦科特/海力士等NVMe固态原生支持补丁 解决硬盘不识别](http://bbs.pcbeta.com/viewthread-1774117-1-1.html)
 
 *  [轻轻松松驱动AMD显卡，适用于所有A卡的通用解决办法](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1637874&highlight=%C7%E1%C7%E1%CB%C9%CB%C9%C7%FD%B6%AFAMD)
 
-*  [对笔记本的 DSDT／SSDT 打补丁](https://blog.csdn.net/wr132/article/details/54798754)
-
-*  [Mojave折腾笔记本电脑触摸板驱动心得](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1805317&highlight=%B4%A5%C3%FE%B0%E5)
+* [Mojave折腾笔记本电脑触摸板驱动心得](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1805317&highlight=%B4%A5%C3%FE%B0%E5)
 
 *  [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794564&page=2#pid48732925)
 
@@ -158,9 +162,7 @@
 
 *  [改为19.2机型，usb端口不识别](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1815666&highlight=19.2)
 
-*  [黑苹果引导工具 Clover 配置详解](https://www.jianshu.com/p/b156b0177a24)
-
-* [balenaEtcher](https://www.balena.io/etcher/)
+*  [virtual smc](https://github.com/acidanthera/VirtualSMC/releases)  
 
 ---
 
