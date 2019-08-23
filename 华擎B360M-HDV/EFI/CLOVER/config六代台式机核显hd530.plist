@@ -15,13 +15,13 @@
 				<key>AddDTGP</key>
 				<true/>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
-				<true/>
+				<false/>
 				<key>FixSATA</key>
-				<true/>
+				<false/>
 				<key>FixShutdown</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -37,20 +37,6 @@
 					<key>Replace</key>
 					<data>
 					SERFRg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename XHCI to XHC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEhD
 					</data>
 				</dict>
 				<dict>
@@ -81,6 +67,48 @@
 					SUdQVQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change H_EC to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SF9FQw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change ECDV to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUNEVg==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -94,8 +122,10 @@
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<true/>
+				<false/>
 				<key>PStates</key>
+				<false/>
+				<key>PluginType</key>
 				<true/>
 			</dict>
 		</dict>
@@ -265,17 +295,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/25/2018</string>
+		<string>05/28/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM171.88Z.F000.B00.1809251200</string>
+		<string>IM171.88Z.F000.B00.1905281222</string>
 		<key>Board-ID</key>
 		<string>Mac-B809C3757DA9BB8D</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02751403QXGPF7JA</string>
+		<string>C02512500GUGPF7JC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -287,7 +317,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>161.0.0.0.0</string>
+		<string>168.0.0.0.0</string>
 		<key>Family</key>
 		<string>iMac17,1</string>
 		<key>FirmwareFeatures</key>
@@ -305,9 +335,9 @@
 		<key>ProductName</key>
 		<string>iMac17,1</string>
 		<key>SerialNumber</key>
-		<string>C02VV6YNGG7L</string>
+		<string>C02PGXY9GG7L</string>
 		<key>SmUUID</key>
-		<string>E4E4CFE2-89AD-45E0-AC8C-93EDF72B0A05</string>
+		<string>DF8B9EDF-7B14-4139-99FB-EB3BA38E6BA5</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
