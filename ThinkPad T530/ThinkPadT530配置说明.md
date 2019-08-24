@@ -51,6 +51,8 @@
 6. 无线网卡驱动：Intel无解，我用的烧录夹刷入BCM94322HM8L（免驱）[白名单](http://bbs.pcbeta.com/search.php?mod=forum&searchid=700&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%B0%D7%C3%FB%B5%A5)后都正常，没有动手能力的建议买USB无线网卡（最好免驱），否则使用有线<sup>[15]</sup>
 
 7. 更新10.14.6后U盘插入显示“USB配件需要电源”无法识别，通过Hackintool定制USB已解决<sup>[16]</sup>
+
+8. 正在研究`hotpatch`（动态补丁）方法以替代DSDT-SSDT反编译生成的静态补丁<sup>[17]</sup>
 ---
 
 # 三.参考
@@ -96,6 +98,9 @@
 [16] 
 - [Hackintool(原Intel FB-Patcher)使用教程及插入姿势](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
 - [FakePCIID.kext + FakePCIID_XHCIMux.kext等](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
+
+[17] [hotpatch详解](https://blog.daliansky.net/hotpatch-detailed-solution.html)
+
 ---
 
 # 四．后记：
