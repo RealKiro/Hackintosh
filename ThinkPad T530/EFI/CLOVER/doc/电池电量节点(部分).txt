@@ -1,0 +1,44 @@
+HWAK
+AK00,   8,
+AK01,   8,
+
+SBRC
+RC00,   8,
+RC01,   8, 
+
+SBFC
+FC00,   8,
+FC01,   8,
+
+SBAC
+AC00,   8, 
+AC01,   8,
+
+SBVO   16, 
+VO00,   8,
+VO01,   8,
+
+SBBM,   16, 
+BM00,   8,
+BM01,   8,
+
+SBDC,   16,
+DC00,   8,
+DC01,   8,
+ 
+SBDV,   16, 
+DC00,   8,
+DC01,   8,
+
+
+SBDT,   16, 
+DT00,   8,
+DT01,   8,
+
+SBSN,   16
+SN00,   8,
+SN01,   8,
+
+SBCH,   32
+SBMN,   128
+SBDN,   128
