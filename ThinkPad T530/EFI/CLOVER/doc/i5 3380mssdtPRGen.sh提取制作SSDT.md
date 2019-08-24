@@ -38,7 +38,7 @@
 ---
 # 参考：
 
-- (ssdtPRGen.sh的简单标准的用法（另外纠正一个论坛一个普遍的错误的ssdtPRGen.sh用法）)[http://bbs.pcbeta.com/viewthread-1720374-1-1.html]
+- [ssdtPRGen.sh的简单标准的用法（另外纠正一个论坛一个普遍的错误的ssdtPRGen.sh用法）](http://bbs.pcbeta.com/viewthread-1720374-1-1.html)
 
-- (ssdtPRGen.sh提取制作SSDT)[http://bbs.pcbeta.com/viewthread-1612058-1-7.html]
+- [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)
 
