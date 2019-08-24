@@ -1,1 +1,0 @@
-./ssdtPRGen.sh -a CPU0 -b Mac-6F01561E16C75D06 -c 1 -l 2 -m MacBookPro9,2 -p 'i5-3380M' -turbo 3600 -t 35
