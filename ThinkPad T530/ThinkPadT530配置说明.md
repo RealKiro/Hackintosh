@@ -53,13 +53,16 @@
 7. 更新10.14.6后U盘插入显示“USB配件需要电源”无法识别，通过Hackintool定制USB已解决<sup>[16]</sup>
 
 8. 正在研究`hotpatch`（动态补丁）方法以替代DSDT-SSDT反编译生成的静态补丁<sup>[17]</sup>
+
 ---
 
 # 三.参考
 
- 
+ - [Hackintosh黑苹果长期维护机型整理清单](https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html)
 
-[1] [时隔一年余，T530再装黑苹果，基本完美](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1662532&highlight=T530)
+[1] 
+- [时隔一年余，T530再装黑苹果，基本完美](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1662532&highlight=T530)
+- [[WorkInProgress] ThinkPad T530 - El Captain](https://www.tonymacx86.com/threads/workinprogress-thinkpad-t530-el-captain.176687/)
 
 [2] [NVS5400不能驱动，放弃了独显](https://xratzh.com/2017/12/26/T430安装折腾macOS/)
 
@@ -71,17 +74,23 @@
 
 [6] [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len) 
    
-[7] [相同机型的EFI](http://bbs.pcbeta.com/viewthread-1795904-1-1.html)
+[7]
+- [相同机型的EFI](http://bbs.pcbeta.com/viewthread-1795904-1-1.html)
+- [黑果小兵 EFI](https://github.com/daliansky/Hackintosh))
+
 
 [8] [使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455)
 
 [9] 
 * [Rehabman MaciASL](https://bitbucket.org/RehabMan/)		
 	[Acidanthera MaciASL](https://github.com/acidanthera/MaciASL/releases)
+* [修改DSDT实现电量显示方法【转载】](https://blog.daliansky.net/Modify-DSDT-to-achieve-power-display-method.html)
 * [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt)  
 * [Laptop-DSDT-Patch/battery/](https://github.com/RehabMan/Laptop-DSDT-Patch/tree/master/battery)
 
-[10] 
+* [T530-OSX](https://bitbucket.org/tpmac/t530-osx/src/master/)
+
+[10] 变频：
 * [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)     
 * [ssdtPRGen.sh的简单标准的用法](http://bbs.pcbeta.com/viewthread-1720374-1-2.html) 
 
@@ -99,7 +108,17 @@
 - [Hackintool(原Intel FB-Patcher)使用教程及插入姿势](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
 - [FakePCIID.kext + FakePCIID_XHCIMux.kext等](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/)
 
-[17] [hotpatch详解](https://blog.daliansky.net/hotpatch-detailed-solution.html)
+[17] 
+- [RehabMan hotpatch](https://github.com/RehabMan/OS-X-Clover-Laptop-Config/tree/master/hotpatch)
+- [黑果小兵 hotpatch](https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html)
+- [hotpatch详解](https://blog.daliansky.net/hotpatch-detailed-solution.html)
+- [祝贺远景开放，开启完美黑苹果新天地！(抛弃传统DSDT方法，完美黑苹果）](http://bbs.pcbeta.com/viewthread-1741377-1-1.html)
+- [【分享】我的 Hotpatch 学习笔记](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1733965&highlight=hotpatch)
+- [Hotpatch简易教程（修复声卡、屏蔽独显、驱动核显、快捷键调节亮度）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1766329)
+- Clover自带hex转换器，或可用以下命令行查找十六进制代码方法：
+    ```echo -n 任意字符串 | xxd```
+    
+    
 
 ---
 
