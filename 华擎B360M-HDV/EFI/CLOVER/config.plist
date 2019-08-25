@@ -153,6 +153,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Arguments</key>
+		<string>slide=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
