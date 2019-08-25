@@ -1,5 +1,8 @@
 # Hackintosh黑苹果
 + 华擎ASRock B360M-HDV / ThinkPad T530
+> ASRock B360M-HDV + i5 8400 : Mojave 10.14.6 (18G87)
+> ThinkPadT530 : Mojave10.14.6 (18G84)
+    
 + CLOVER引导比较成熟，目前2款机型全部用CLOVER而非Justin的OpenCore
 + 谦虚地说，我只是跨过了黑苹果这道门槛而已，配置好后基本能作为生产工具使用，未出现大问题。
 + 敬请大屌们指正与指导～
@@ -18,6 +21,6 @@
 > + Q:this version of Mac OS X isn’t Supported on This Platform 
 > + A:SMBIOS 问题,  引导界面按 O 选择Boot Arga输入 -no_compat_check 就行了，以此跳过兼容性检查
 ---
-- 如果你有 【 任何问题 / 任何补充 / 任何指正更正 】的还请顺便提交一下 [issue](https://github.com/RealKiro/Hackintosh/issues/new)说详细点谢谢🙏 ， 可截图直接粘贴
-- If you have [any questions / any supplements / any corrections] please also submit [issue](https://github.com/RealKiro/Hackintosh/issues/new) and say in detail, you can directly paste the screenshot
+- 如果你有 【 任何问题 / 任何补充 / 任何指正更正 】的还请顺便提交一下 [issue] 说详细点谢谢🙏 ， 可截图直接粘贴
+- If you have [any questions / any supplements / any corrections] please also submit [issue] and say in detail, you can directly paste the screenshot
 ![title](https://i.imgur.com/HCwjiv3.jpg)
