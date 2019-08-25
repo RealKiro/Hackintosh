@@ -115,9 +115,8 @@
 - [祝贺远景开放，开启完美黑苹果新天地！(抛弃传统DSDT方法，完美黑苹果）](http://bbs.pcbeta.com/viewthread-1741377-1-1.html)
 - [【分享】我的 Hotpatch 学习笔记](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1733965&highlight=hotpatch)
 - [Hotpatch简易教程（修复声卡、屏蔽独显、驱动核显、快捷键调节亮度）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1766329)
-- Clover自带hex转换器，或可用以下命令行查找十六进制代码方法：
-    ```echo -n 任意字符串 | xxd```
     
+    注： Clover自带hex转换器
     
 
 ---
