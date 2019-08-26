@@ -19,6 +19,13 @@ Find | Replace | 备注
 - [ ] `TODO` 触控板不正常 -- 找不到触控板
 - [ ] `TODO` 电池显示不正常 -- 不显示
 
+## 参考及致谢：
+- [黑果小兵daliansky/P-little](https://github.com/daliansky/P-little)
+- [hotpatch详解](https://blog.daliansky.net/hotpatch-detailed-solution.html)
+- [祝贺远景开放，开启完美黑苹果新天地！(抛弃传统DSDT方法，完美黑苹果）](http://bbs.pcbeta.com/viewthread-1741377-1-1.html)
+- [【分享】我的 Hotpatch 学习笔记](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1733965&highlight=hotpatch)
+- [Hotpatch简易教程（修复声卡、屏蔽独显、驱动核显、快捷键调节亮度）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1766329)
+- [[指南] hackintosh之hotpatch](https://www.kancloud.cn/chandler/mac_os/481699)
 
 ---
 
