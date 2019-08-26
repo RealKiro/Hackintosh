@@ -7,11 +7,15 @@
 - [x] 睡眠基本正常
 - [x] 亮度调节正常
 - [x] 关机正常、重启正常
-- [x] 摄像头不正常
->    `EHC1` to `EH01`
->    `EHC2` to `EH02`
->    `XHCI` to `XHC`
->   ~~ `XHC1` to `XHC`~~ 
+- [x] 摄像头正常
+
+`EHC1` to `EH01`
+
+ `EHC2` to `EH02`
+
+ `XHCI` to `XHC`
+
+~~ `XHC1` to `XHC`~~ 
     
 - [ ] `TODO` 触控板不正常 -- 找不到触控板
 - [ ] `TODO` 电池显示不正常 -- 不显示
