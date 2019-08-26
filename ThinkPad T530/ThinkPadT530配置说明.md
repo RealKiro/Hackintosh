@@ -1,3 +1,24 @@
+`2019.08.26`
+
+- 重新制作config，原``Len`s DMG`` HD4000高分屏会卡NVRAM（五国）循环重启故弃用
+- 用 hotpatch动态补丁 代替 DSDT-SSDT反编译静态补丁 
+- [x] 核显驱动正常，applbkl=1   MacBookPro9,2    0x01660004
+- [x] 声卡用的 `AppleALC` , 手动注入ID为40 ，正常
+- [x] 睡眠基本正常
+- [x] 亮度调节正常
+- [x] 关机正常、重启正常
+- [x] 摄像头不正常
+>    `EHC1` to `EH01`
+>    `EHC2` to `EH02`
+>    `XHCI` to `XHC`
+>   ~~ `XHC1` to `XHC`~~ 
+    
+- [ ] `TODO` 触控板不正常 -- 找不到触控板
+- [ ] `TODO` 电池显示不正常 -- 不显示
+
+
+---
+
 # ThinkPadT530
 
 # 一．前言
@@ -35,10 +56,9 @@
 	- [x] 可以驱动核显、亮度调节、电源管理、USB驱动等，不需要有编程基础
 		* MaciASL有2种版本（[Rehabman MaciASL](https://bitbucket.org/RehabMan/)和[Acidanthera MaciASL](https://github.com/acidanthera/MaciASL/releases)），其中Acidanthera 的莫名其妙的问题一堆，Rehabman的6.2a版好用推荐（0错误）
 		* [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt) <sup>[9]</sup>
-		* 可以全部在DSDT里面打补丁，但建议不那么做
 		* [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)     
 		* [ssdtPRGen.sh的简单标准的用法](http://bbs.pcbeta.com/viewthread-1720374-1-2.html) <sup>[10]</sup>
-3. [AppleALC原版](https://github.com/acidanthera/AppleALC/releases)<sup>[11]</sup> 没修改过Codec，仅[Audio注入](https://blog.daliansky.net/AppleALC-Supported-codecs.html)<sup>[12]</sup> 30，基本正常，可以自动识别并切换外放和耳机
+3. [AppleALC原版](https://github.com/acidanthera/AppleALC/releases)<sup>[11]</sup> 没修改过Codec，仅[Audio注入](https://blog.daliansky.net/AppleALC-Supported-codecs.html)<sup>[12]</sup> 40，基本正常，可以自动识别并切换外放和耳机
 4. 触摸板驱动：ApplePS2SmartTouchPad.kext红点无法使用，所以使用默认的[VoodooPS2Controller](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)<sup>[13]</sup>，仅Win和Alt键映射反了，其他正常（单击需要在系统偏好设置->鼠标 看看勾选没，起初没勾选还以为驱动有问题^-^|||）
 
 	- [x] 白苹果台式机和笔记本键位略有区别，以白苹果为准
@@ -79,7 +99,9 @@
 - [黑果小兵 EFI](https://github.com/daliansky/Hackintosh))
 
 
-[8] [使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455)
+[8]
+- [guide-patching-laptop-dsdt-ssdts](http://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/)
+- [使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455)
 
 [9] 
 * [Rehabman MaciASL](https://bitbucket.org/RehabMan/)		
@@ -115,6 +137,7 @@
 - [祝贺远景开放，开启完美黑苹果新天地！(抛弃传统DSDT方法，完美黑苹果）](http://bbs.pcbeta.com/viewthread-1741377-1-1.html)
 - [【分享】我的 Hotpatch 学习笔记](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1733965&highlight=hotpatch)
 - [Hotpatch简易教程（修复声卡、屏蔽独显、驱动核显、快捷键调节亮度）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1766329)
+- [[指南] hackintosh之hotpatch](https://www.kancloud.cn/chandler/mac_os/481699)
     
     注： Clover自带hex转换器
     
