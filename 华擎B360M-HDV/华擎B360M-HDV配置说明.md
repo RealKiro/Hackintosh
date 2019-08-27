@@ -1,21 +1,21 @@
 
 ![title](https://i.imgur.com/w142YXM.jpg)
-- 华擎B360M-HDV 
-- Intel Core i5-8400
+- `华擎B360M-HDV` 
+- `Intel Core i5-8400`
 - AMD Radeon R9 270X（免驱卡）
-- 无损更新 MacOS Mojave 10.14.6 18G84，补丁更新也基本正常能用
+- 无损更新  `MacOS Mojave 10.14.6 18G84` ，补丁 `18G87` 更新也基本正常能用
 ![title](https://i.imgur.com/SzHNSRG.jpg)
 图片仅作参考
 ---
 0. 黑苹果前BIOS设置：
 	![title](https://i.imgur.com/ACC3LZo.png)
 
-1. 基于[Len'DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)配置，其config可直接使用：
+1. 基于`[Len'DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)`配置，其config可直接使用：
 	>> config.plist
 
 	> 或
 
-	>> config八代台式机核显hd630(需设置核显显存大于64M).plist 
+	>> config八代台式机核显uhd630.plist 
 
 	- 初次不需要改动就能直接进系统，后面未做多大改动（以下大部分均在[Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)内修改）：
 		* 移除多余引导项，添加 有EFI备份的其他盘号 使其在Clover开机引导界面隐藏
@@ -23,7 +23,7 @@
 		* 引导参数选择LastBootedVolume，启动时间改为6S（重启电脑后可自动选中上一次打开的系统引导）
 		* 机型选择iMac19,1
 		* 声卡ID注入11（AppleALC）
-		* 正常开机后，去掉全部引导参数，如 -v 等
+		* 正常开机后，去掉部分不需要用到的引导参数，如 -v 等
 		* 变频： CPU设置 -- HWP开启
 
  	- EFI不是万能药，最好自己根据自己的配置略作修改
@@ -34,16 +34,16 @@
  		>>> kext
  		>>>> other
 
- 	- 基本驱动都默认给你添加好了，需要什么别的驱动可以自己添加
- 		* 注意USBinjectAll.kext（USB万能驱动）iMac机型最高为19.1，，机型19.2鼠标或键盘很可能不能用，如需19.2请自己修改
+ 	- 基本驱动 镜像包 里面都默认自带，需要什么别的驱动可以自己添加
+ 		* 注意`USBinjectAll.kext`（USB万能驱动）iMac机型最高为19.1，，机型19.2鼠标或键盘很可能不能用，如需19.2请自己修改
 
 		![title](https://i.loli.net/2019/07/26/5d3ab7706440243648.png)
 
-	- 声卡为万能声卡VoodooHDA.kext,无需注入声卡开机默认能使用；如不想用万能声卡可使用AppleALC.kext,但是必须注入ID或修改Codec。
+	- 声卡为万能声卡`VoodooHDA.kext`, 无需注入声卡开机默认能使用；如不想用万能声卡可使用`AppleALC.kext`, 但是必须`注入ID`或修改Codec。
 
  	- 隐藏多余引导项：
-		- preboot
-		- recovery
+		- `preboot`
+		- `recovery`
 	
 ![title](https://i.imgur.com/HKTOOSk.jpg)
 
@@ -54,7 +54,7 @@
 > AppleALC使用方法：
 	
 >> - [下载最新AppleALC](https://github.com/acidanthera/AppleALC/releases)放进lilu同级目录
->> - 删掉VoodooHDA万能声卡驱动
+>> - 删掉`VoodooHDA`万能声卡驱动
 >> - 查阅Alc887节点，Audio注入11重启（[无效的话一个一个试](https://blog.daliansky.net/AppleALC-Supported-codecs.html )）
 
 3. 无法关机(会重启系统)的解决办法参考了:[安装10.14后无法关机(会重启系统)的解决办法](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1804882&highlight=%B9%D8%BB%FA) ，已正常关机；
@@ -71,11 +71,11 @@
     Q：黑果每次开机或重启都要求输入iCloud密码？
     A：注销iCloud账户后重新登陆，重启电脑就好了
 
-7. 显卡AMD Radeon R9 270X直接免驱，当初作为小白直接配的时候核显用HDMI接口会黑屏，所以加了块AMD独显
+7. 显卡`AMD Radeon R9 270X`直接免驱，当初作为小白直接配的时候核显用HDMI接口会黑屏，所以加了块AMD独显
 
 8. [Clover启动无法倒计时进入系统参考解决方案](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1786366&highlight=%B5%B9%BC%C6%CA%B1)
 
-9. EFI是 Len 的可以直接拿来用，进系统后只需配置好驱动即可。如果 黑果小兵 的EFI没法用可以试试 Len 的，兼容性做的很棒！
+9. EFI是 `Len` 的可以直接拿来用，进系统后只需配置好驱动即可。如果 `黑果小兵` 的EFI没法用可以试试 `Len` 的，兼容性做的很棒！
 
 👌 综上，经轻中度体验后感觉基本完美，能作为生产工具使用。
 感谢各位！
@@ -163,7 +163,7 @@
 *  [virtual smc](https://github.com/acidanthera/VirtualSMC/releases)  
 
 ---
-
+## `OpenCore` 及 `AMD` 相关：
 * [OpenCore](https://github.com/acidanthera/OpenCorePkg)
 
 * [OpenCore驱动]()
@@ -172,10 +172,12 @@
 
 * CPU是AMD的内核补丁：[AMD Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 ---
-# ⚠️
+## ⚠️
 * BIOS固件千万不要升级，否则容易出问题！建议保持3.1及以下版本。
 * 参考部分有些是笔记本配置指南，来源于书签🔖暂时懒得整理，台式机配置可选择性地阅读并慎用！
 * 几乎所有驱动都可以通过Hackintool这款工具下载，不需要单独到处找，部分配置也可通过它来完成。
 * 键盘布局：
 	* USB键盘 -- Win 是 Command 
 	* PS2/I2C键盘 -- Alt 是 Command
++ 由于台式机比笔记本传感器等硬件要简单，所以配置起来台式机更容易一点，DSDT反编译 或 `hotpatch` 热修补等非常复杂的操作台式机是不需要的
++ 白苹果显卡核显标准名称是 `IGPU` ，独显是 `GFX0` ， 所以我的笔记本显卡名称`VID`需要换成`IGPU`就是这个原因，台式机是不需要改的。
