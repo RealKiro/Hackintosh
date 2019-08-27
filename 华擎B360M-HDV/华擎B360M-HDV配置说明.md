@@ -88,11 +88,11 @@
 
 *  [macOS Mojave 的硬件兼容性列表](https://github.com/CrazyPegAsus/macOS-Mojave-Compatibility-hardware-list)
 
-*  [黑果小兵](https://blog.daliansky.net/)
+*  [`黑果小兵`](https://blog.daliansky.net/)
 
-*  [Len’S DMG](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)
+*  [`Len’S DMG`](http://bbs.pcbeta.com/search.php?mod=forum&searchid=3518&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=Len)
 
-*  [balenaEtcher](https://www.balena.io/etcher/)
+*  [`balenaEtcher`](https://www.balena.io/etcher/)
 
 *  [ASROCK B360M-HDV_Hackintosh EFI](https://github.com/kennydiff/B360M-HDV_Hackin)
 
@@ -106,63 +106,33 @@
 
 *  [黑苹果（Hackintosh）的折腾时光](https://www.jianshu.com/p/bd57a9324f08)
 
-*  [Hackintosh黑苹果长期维护机型EFI及安装教程整理](https://github.com/daliansky/Hackintosh)
+*  [`Hackintosh`黑苹果长期维护机型EFI及安装教程整理](https://github.com/daliansky/Hackintosh)
 
-*  [【黑果小兵】[远景首发]Hackintool(原Intel FB-Patcher)使用教程及插入姿势](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794948&highlight=fb)
+*  [【黑果小兵】[远景首发]`Hackintool`(原Intel FB-Patcher)使用教程及插入姿势](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794948&highlight=fb)
 
-*  [hotpatch详解](https://www.jianshu.com/p/7e9c045eef6a)
-
-*  [装完系统后的一件事，Clover Acpi hotpatch给机器打补丁。](http://bbs.pcbeta.com/viewthread-1802902-1-3.html)
-
-*  [给笔记本的DSDT/SSDTs打补丁](https://www.kancloud.cn/chandler/mac_os/482278#ACPI_205)
-
-*  [通过DSDT和SSDT成功实现变频的必要步骤［综合信息帖］](http://bbs.pcbeta.com/viewthread-1578829-1-1.html)
-
-*  [[授权翻译] 使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455)
-
-*  [联合DSDT和SSDT进行反编译——减少DSDT和SSDT错误的尝试](http://bbs.pcbeta.com/viewthread-1475332-1-1.html)
-
-*  [ssdtPRGen.sh](https://github.com/Piker-Alpha/ssdtPRGen.sh)
-
-*  [ssdtPRGen.sh的简单标准的用法（另外纠正一个论坛一个普遍的错误的ssdtPRGen.sh用法）](http://bbs.pcbeta.com/viewthread-1720374-1-2.html)
-
-*  [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)
-
-*  [充分运用MaciASL软件的补丁源－让黑苹果高手帮你完善DSDT](http://bbs.pcbeta.com/viewthread-1576959-1-1.html)
-
-*  [对笔记本的 DSDT／SSDT 打补丁](https://blog.csdn.net/wr132/article/details/54798754)
-
-*  [CPU-S轻松检测CPU信息和变频档位，还可生成变频SSDT](http://bbs.pcbeta.com/viewthread-1698338-1-1.html)
 
 *  [10.13.X-10.14.5 开启建兴/浦科特/海力士等NVMe固态原生支持补丁 解决硬盘不识别](http://bbs.pcbeta.com/viewthread-1774117-1-1.html)
 
 *  [轻轻松松驱动AMD显卡，适用于所有A卡的通用解决办法](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1637874&highlight=%C7%E1%C7%E1%CB%C9%CB%C9%C7%FD%B6%AFAMD)
-
-* [Mojave折腾笔记本电脑触摸板驱动心得](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1805317&highlight=%B4%A5%C3%FE%B0%E5)
-
-*  [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794564&page=2#pid48732925)
-
-*  [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/viewthread-1794564-1-1.html)
-
 *  [OS-X-Voodoo-PS2-Controller源码](https://github.com/tluck/OS-X-Voodoo-PS2-Controller)
 
-*  [OS-X-Voodoo-PS2-Controller](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)
+*  [`OS-X-Voodoo-PS2-Controller`](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)
 
-*  [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
+*  [`Clover Configurator`](https://mackie100projects.altervista.org/download-clover-configurator/)
 
 *  [AppleALC支持的Codecs列表及AppleALC的使用](https://blog.daliansky.net/AppleALC-Supported-codecs.html)
 
 *  [黑苹果定制声卡驱动（ALC892为例)](https://www.jianshu.com/p/29a74f0664f1)
 
-*  [AppleALC](https://github.com/acidanthera/AppleALC/releases)
+*  [`AppleALC`](https://github.com/acidanthera/AppleALC/releases)
 
-*  [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
+*  [`WhateverGreen`](https://github.com/acidanthera/WhateverGreen/releases)
 
 *  [Enable macOS HiDPI](https://github.com/xzhih/one-key-hidpi)
 
 *  [改为19.2机型，usb端口不识别](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1815666&highlight=19.2)
 
-*  [virtual smc](https://github.com/acidanthera/VirtualSMC/releases)  
+*  [`virtual smc`](https://github.com/acidanthera/VirtualSMC/releases)  可以代替 `facksmc` ，请自行选择
 
 ---
 ## `OpenCore` 及 `AMD` 相关：

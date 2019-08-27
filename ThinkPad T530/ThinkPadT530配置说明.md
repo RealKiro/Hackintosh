@@ -29,10 +29,19 @@ Find | Replace | 备注
 
 ## 参考及致谢：
 - [黑果小兵daliansky/P-little](https://github.com/daliansky/P-little)
+
 - [hotpatch详解](https://blog.daliansky.net/hotpatch-detailed-solution.html)
+
+*  [hotpatch详解](https://www.jianshu.com/p/7e9c045eef6a)
+
+*  [装完系统后的一件事，Clover Acpi hotpatch给机器打补丁。](http://bbs.pcbeta.com/viewthread-1802902-1-3.html)
+
 - [祝贺远景开放，开启完美黑苹果新天地！(抛弃传统DSDT方法，完美黑苹果）](http://bbs.pcbeta.com/viewthread-1741377-1-1.html)
+
 - [【分享】我的 Hotpatch 学习笔记](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1733965&highlight=hotpatch)
+
 - [Hotpatch简易教程（修复声卡、屏蔽独显、驱动核显、快捷键调节亮度）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1766329)
+
 - [[指南] hackintosh之hotpatch](https://www.kancloud.cn/chandler/mac_os/481699)
 
 ---
@@ -77,7 +86,9 @@ Find | Replace | 备注
 		* [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)     
 		* [ssdtPRGen.sh的简单标准的用法](http://bbs.pcbeta.com/viewthread-1720374-1-2.html) <sup>[10]</sup>
 3. [AppleALC原版](https://github.com/acidanthera/AppleALC/releases)<sup>[11]</sup> 没修改过Codec，仅[Audio注入](https://blog.daliansky.net/AppleALC-Supported-codecs.html)<sup>[12]</sup> 40，基本正常，可以自动识别并切换外放和耳机
-4. 触摸板驱动：ApplePS2SmartTouchPad.kext红点无法使用，所以使用默认的[VoodooPS2Controller](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)<sup>[13]</sup>，仅Win和Alt键映射反了，其他正常（单击需要在系统偏好设置->鼠标 看看勾选没，起初没勾选还以为驱动有问题^-^|||）
+4.
++ 触摸板驱动：ApplePS2SmartTouchPad.kext红点无法使用，所以使用默认的[VoodooPS2Controller](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)<sup>[13]</sup>，仅Win和Alt键映射反了，其他正常（单击需要在系统偏好设置->鼠标 看看勾选没，起初没勾选还以为驱动有问题^-^|||）
+* [Mojave折腾笔记本电脑触摸板驱动心得](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1805317&highlight=%B4%A5%C3%FE%B0%E5)
 
 	- [x] 白苹果台式机和笔记本键位略有区别，以白苹果为准
 
@@ -106,7 +117,11 @@ Find | Replace | 备注
 
 [3] [T530 白名单解决方案！！！](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1590994&highlight=T530)
 
-[4] [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794564&highlight=%B9%D8%D3%DA%BA%DA%C6%BB%B9%FB%CF%C2%D0%DE%D5%FDThinkPad%D0%A1%BA%EC%B5%E3%C6%AE%D2%C6%B5%C4%CC%BD%CC%D6)
+[4] 
+*  [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1794564&page=2#pid48732925)
+
+*  [关于黑苹果下修正ThinkPad小红点飘移的探讨](http://bbs.pcbeta.com/viewthread-1794564-1-1.html)
+
 
 [5] [黑果小兵](https://blog.daliansky.net)
 
@@ -124,6 +139,16 @@ Find | Replace | 备注
 [9] 
 * [Rehabman MaciASL](https://bitbucket.org/RehabMan/)		
 	[Acidanthera MaciASL](https://github.com/acidanthera/MaciASL/releases)
+* [充分运用MaciASL软件的补丁源－让黑苹果高手帮你完善DSDT](http://bbs.pcbeta.com/viewthread-1576959-1-1.html)
+
+*  [[授权翻译] 使用补丁修改DSDT/SSDT [DSDT/SSDT综合教程]](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1571455)
+
+*  [联合DSDT和SSDT进行反编译——减少DSDT和SSDT错误的尝试](http://bbs.pcbeta.com/viewthread-1475332-1-1.html)
+
+*  [对笔记本的 DSDT／SSDT 打补丁](https://blog.csdn.net/wr132/article/details/54798754)
+
+*  [给笔记本的DSDT/SSDTs打补丁](https://www.kancloud.cn/chandler/mac_os/482278#ACPI_205)
+
 * [修改DSDT实现电量显示方法【转载】](https://blog.daliansky.net/Modify-DSDT-to-achieve-power-display-method.html)
 * [ThinkPad T530等型号电池显示补丁](https://github.com/RehabMan/Laptop-DSDT-Patch/blob/master/battery/battery_Lenovo-X220.txt)  
 * [Laptop-DSDT-Patch/battery/](https://github.com/RehabMan/Laptop-DSDT-Patch/tree/master/battery)
@@ -131,8 +156,15 @@ Find | Replace | 备注
 * [T530-OSX](https://bitbucket.org/tpmac/t530-osx/src/master/)
 
 [10] 变频：
+*  [通过DSDT和SSDT成功实现变频的必要步骤［综合信息帖］](http://bbs.pcbeta.com/viewthread-1578829-1-1.html)
+
+*  [ssdtPRGen.sh](https://github.com/Piker-Alpha/ssdtPRGen.sh)
+
 * [ssdtPRGen.sh提取制作SSDT](http://bbs.pcbeta.com/viewthread-1612058-1-7.html)     
 * [ssdtPRGen.sh的简单标准的用法](http://bbs.pcbeta.com/viewthread-1720374-1-2.html) 
+
+*  [CPU-S轻松检测CPU信息和变频档位，还可生成变频SSDT](http://bbs.pcbeta.com/viewthread-1698338-1-1.html)
+
 
 [11] [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 
@@ -152,6 +184,7 @@ Find | Replace | 备注
 - [RehabMan hotpatch](https://github.com/RehabMan/OS-X-Clover-Laptop-Config/tree/master/hotpatch)
 - [黑果小兵 hotpatch](https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html)
 - [hotpatch详解](https://blog.daliansky.net/hotpatch-detailed-solution.html)
+*  [hotpatch详解](https://www.jianshu.com/p/7e9c045eef6a)
 - [祝贺远景开放，开启完美黑苹果新天地！(抛弃传统DSDT方法，完美黑苹果）](http://bbs.pcbeta.com/viewthread-1741377-1-1.html)
 - [【分享】我的 Hotpatch 学习笔记](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1733965&highlight=hotpatch)
 - [Hotpatch简易教程（修复声卡、屏蔽独显、驱动核显、快捷键调节亮度）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1766329)
