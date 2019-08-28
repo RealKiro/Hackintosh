@@ -134,6 +134,9 @@
 
 *  [`virtual smc`](https://github.com/acidanthera/VirtualSMC/releases)  可以代替 `facksmc` ，请自行选择
 
+- [从技术角度谈谈10.11的USB驱动机制，兼论10.11 USB安装盘的花屏禁行问题](http://bbs.pcbeta.com/viewthread-1646768-1-1.html)
+- [解决10.11 El Capitan USB 摄像头 蓝牙无法使用问题（自制遮盖器法）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1647984)
+
 ---
 ## `OpenCore` 及 `AMD` 相关：
 * [OpenCore](https://github.com/acidanthera/OpenCorePkg)
@@ -152,4 +155,4 @@
 	* USB键盘 -- Win 是 Command 
 	* PS2/I2C键盘 -- Alt 是 Command
 + 由于台式机比笔记本传感器等硬件要简单，所以配置起来台式机更容易一点，DSDT反编译 或 `hotpatch` 热修补等非常复杂的操作台式机是不需要的
-+ 白苹果显卡核显标准名称是 `IGPU` ，独显是 `GFX0` ， 所以我的笔记本显卡名称`VID`需要换成`IGPU`就是这个原因，台式机是不需要改的。
++ 白苹果显卡核显标准名称是 `IGPU` ，独显是 `GFX0` ， 所以我的笔记本显卡名称`VID`需要换成`IGPU`就是这个原因，详见`遮盖器`。
