@@ -27,7 +27,9 @@ Find | Replace | 备注
 - [ ] `TODO` 电池显示不正常 -- 不显示
 - [ ] `TODO` WIFI不正常 -- 点不动
 
-## 参考及致谢：
+## hotpatch参考及致谢：
+- [从技术角度谈谈10.11的USB驱动机制，兼论10.11 USB安装盘的花屏禁行问题](http://bbs.pcbeta.com/viewthread-1646768-1-1.html)
+- [解决10.11 El Capitan USB 摄像头 蓝牙无法使用问题（自制遮盖器法）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1647984)
 - [黑果小兵daliansky/P-little](https://github.com/daliansky/P-little)
 
 - [hotpatch详解](https://blog.daliansky.net/hotpatch-detailed-solution.html)
@@ -105,7 +107,7 @@ Find | Replace | 备注
 
 ---
 
-# 三.参考
+# 三.参考及致谢
 
  - [Hackintosh黑苹果长期维护机型整理清单](https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html)
 
