@@ -29,6 +29,7 @@ Find | Replace | 备注
 
 ## hotpatch参考及致谢：
 - [从技术角度谈谈10.11的USB驱动机制，兼论10.11 USB安装盘的花屏禁行问题](http://bbs.pcbeta.com/viewthread-1646768-1-1.html)
+- [10.11 USB问题之下篇，一步一步教你解决USB问题](http://bbs.pcbeta.com/viewthread-1651615-1-1.html)
 - [解决10.11 El Capitan USB 摄像头 蓝牙无法使用问题（自制遮盖器法）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1647984)
 - [黑果小兵daliansky/P-little](https://github.com/daliansky/P-little)
 
