@@ -1,3 +1,8 @@
+`2019.08.28` 等有空重新定制端口，明显已经超过了15个限制
+
+- [ ] `TODO`除前面板一个 USB3.0 外其他USB口都正常
+
+---
 
 ![title](https://i.imgur.com/w142YXM.jpg)
 - `华擎B360M-HDV` 
@@ -135,6 +140,8 @@
 *  [`virtual smc`](https://github.com/acidanthera/VirtualSMC/releases)  可以代替 `facksmc` ，请自行选择
 
 - [从技术角度谈谈10.11的USB驱动机制，兼论10.11 USB安装盘的花屏禁行问题](http://bbs.pcbeta.com/viewthread-1646768-1-1.html)
+- [10.11 USB问题之下篇，一步一步教你解决USB问题](http://bbs.pcbeta.com/viewthread-1651615-1-1.html)
+
 - [解决10.11 El Capitan USB 摄像头 蓝牙无法使用问题（自制遮盖器法）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1647984)
 
 ---

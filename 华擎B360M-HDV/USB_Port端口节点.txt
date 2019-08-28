@@ -1,0 +1,52 @@
+在Windows10环境下经过不断的插插拔拔U盘，已经把所有的USB的port节点都试出来了，然后就可以精确化定制USB端口了
+⚠️前面板是机箱可能和你的略有不同，后面板才是B360M-HDV主板通用端口
+
+
+front 	USB2.0
+	HS06 
+	Port_#0006.Hub_#0001
+
+	USB3.0
+	SS05
+	Port_#0021.Hub_#0001
+	由于该设备有问题，Windows 已将其停止。 (代码 43)
+	请求 USB 设备描述符失败。
+
+front left USB2.0
+	HS04
+	Port_#0004.Hub_#0001
+
+front right USB2.0
+	HS03
+	Port_#0003.Hub_#0001
+
+behind 内
+	HS05
+	Port_#0005.Hub_#0001
+behind 外
+	HS01
+	Port_#0001.Hub_#0001
+	
+behind 外上
+	HS08
+	Port_#0008.Hub_#0001
+	SS02
+	Port_#0018.Hub_#0001
+
+behind 内上
+	HS07
+	Port_#0007.Hub_#0001
+	SS01
+	Port_#0017.Hub_#0001	
+
+behind 外下
+	HS14
+	Port_#0014.Hub_#0001
+	SS03
+	Port_#0019.Hub_#0001
+
+behind 内下
+	HS09
+	Port_#0009.Hub_#0001
+	SS04	
+	Port_#0020.Hub_#0001
