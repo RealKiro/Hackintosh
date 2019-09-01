@@ -1,5 +1,7 @@
 `2019.08.29`
-- 换回`Len`的八代配置，使用正常
+- [x] 换回`Len`的八代配置，使用正常
+- [x] 添加解除端口限制补丁
+- [x] 机箱加了个前置HD面板，重新定制USB
 
 `2019.08.29` 
 - 无损升级至10.14.6 (18G95)，一切正常
@@ -7,9 +9,10 @@
 
     ~~途中出的小事故是：插槽2不识别用酒精擦了下插槽就正常识别了好险。。。~~
 
-`2019.08.28` 等有空重新定制端口，明显已经超过了15个限制；大佬建议：先要解除limit...然后再hackintool定制才行
+`2019.08.28` 
+- [ ] `TODO` 等有空重新定制端口，明显已经超过了15个限制；大佬建议：先要解除limit...然后再hackintool定制才行
 
-- [ ] `TODO`除前面板一个 USB3.0 外其他 USB口 都正常，不影响其他口正常使用
+- [ ] `TODO` 除前面板一个 USB3.0 外其他 USB口 都正常，不影响其他口正常使用
 
 ---
 
@@ -145,6 +148,8 @@
 *  [Enable macOS HiDPI](https://github.com/xzhih/one-key-hidpi)
 
 *  [改为19.2机型，usb端口不识别](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1815666&highlight=19.2)
+
+* [关于黑果小兵的10.14.x解除USB端口限制补丁的补充帖（20190826补充说明）](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1826217&highlight=%B6%CB%BF%DA%CF%DE%D6%C6)
 
 *  [`virtual smc`](https://github.com/acidanthera/VirtualSMC/releases)  可以代替 `facksmc` ，请自行选择
 
