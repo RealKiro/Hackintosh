@@ -13,17 +13,11 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<false/>
+				<true/>
 				<key>AddPNLF</key>
 				<true/>
 				<key>FixDisplay</key>
 				<true/>
-				<key>FixHPET</key>
-				<false/>
-				<key>FixRTC</key>
-				<false/>
-				<key>FixShutdown</key>
-				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -43,16 +37,16 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HECI to IMEI</string>
+					<string>change GFX0 to IGPU</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					SEVDSQ==
+					R0ZYMA==
 					</data>
 					<key>Replace</key>
 					<data>
-					SU1FSQ==
+					SUdQVQ==
 					</data>
 				</dict>
 				<dict>
@@ -85,16 +79,58 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
+					<string>change HECI to IMEI</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					R0ZYMA==
+					SEVDSQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					SUdQVQ==
+					SU1FSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change H_EC to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SF9FQw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change ECDV to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUNEVg==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
 					</data>
 				</dict>
 			</array>
@@ -130,17 +166,21 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 nv_disable=1 -disablegfxfirmware</string>
+		<string>-v dart=0 nv_disable=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
 		<key>Legacy</key>
 		<string>PBR</string>
+		<key>NeverHibernate</key>
+		<true/>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>10</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -149,14 +189,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>Detect</string>
-			<key>ResetHDA</key>
-			<true/>
-		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>IntelGFX</key>
-			<string>0x12345678</string>
+			<string>No</string>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -199,7 +232,7 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<false/>
+			<true/>
 			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
@@ -220,7 +253,7 @@
 			<false/>
 		</dict>
 		<key>ig-platform-id</key>
-		<string>0x12345678</string>
+		<string>0x01660004</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -270,6 +303,24 @@
 				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change 15 port limit to 26 in XHCI kext for 10.14.1 by Ricky</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/sPD4OPBAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				g/sPkJCQkJCQ
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -282,17 +333,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
+		<string>04/16/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.0147.B00.1809171520</string>
+		<string>MBP91.88Z.F000.B00.1904162041</string>
 		<key>Board-ID</key>
-		<string>Mac-189A3D4F975D5FFC</string>
+		<string>Mac-6F01561E16C75D06</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C17329609QXFH31FB</string>
+		<string>C02346403GUF1YJ1F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -304,11 +355,11 @@
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>EfiVersion</key>
-		<string>149.0.0.0.0</string>
+		<string>226.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE80FE137</string>
+		<string>0xC00DE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -318,13 +369,13 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x02</string>
+		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>MacBookPro11,1</string>
+		<string>MacBookPro9,2</string>
 		<key>SerialNumber</key>
-		<string>C17L300YFH00</string>
+		<string>C02LPGZCDTY3</string>
 		<key>SmUUID</key>
-		<string>1ED659ED-3AB6-40AC-BB96-9CC2E6E9E007</string>
+		<string>773AF416-C3D0-4726-A0EE-B59EB45E310C</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -333,8 +384,6 @@
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>
