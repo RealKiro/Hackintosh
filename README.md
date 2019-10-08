@@ -1,9 +1,9 @@
 # Hackintosh黑苹果
 + 华擎ASRock B360M-HDV / ThinkPad T530
-    - ASRock B360M-HDV + i5 8400 : Mojave 10.14.6 (18G103)
-    - ThinkPadT530 : MacOS Catalina (10.15) Bug很多暂停更新 / Mojave10.14.6 (18G84)
+    - ASRock B360M-HDV + i5 8400 : Catalina 10.15 (19A583)
+    - ThinkPadT530 : MacOS Catalina (10.15) 已翻车不能用 / Mojave10.14.6 (18G84)可用 暂停更新
     
-+ CLOVER引导比较成熟，目前2款机型全部用CLOVER而非Justin的OpenCore
++ CLOVER引导比较成熟，目前2款机型全部用CLOVER而非Justin的OpenCore（同款）
 + 谦虚地说，我只是跨过了黑苹果这道门槛而已，配置好后基本能作为生产工具使用，未出现大问题。
 + 敬请大屌们指正与指导～
 
