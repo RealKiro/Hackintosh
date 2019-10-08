@@ -7,9 +7,16 @@
 + 谦虚地说，我只是跨过了黑苹果这道门槛而已，配置好后基本能作为生产工具使用，未出现大问题。
 + 敬请大屌们指正与指导～
 
-+ CLOVER boot is more mature, currently 2 models all use CLOVER instead of Justin's OpenCore
-+ Modestly speaking, I just crossed the threshold of Hackintosh. After being configured, I can basically use them as production tools without major problems.
-+ Please ask the big men to correct and guide ~
++ ASRock ASRock B360M-HDV / ThinkPad T530
+
+    - ASRock B360M-HDV i5 8400 : Catalina 10.15 (19A583)
+    - ThinkPadT530 : MacOS Catalina (10.15) Roll over does not work / Mojave10.14.6 (18G84) available Pause update
++ CLOVER boot is more mature, the current two models all use CLOVER; desktop with the same OpenCore boot has configuration by Justin`s, I will not play. . .
+
++ Modestly speaking, I have only crossed the threshold of Hackintosh. After being configured, I can basically use them as production tools without major problems.
+
++ Please correct me and guide ~
+
 ---
 > 还有一台表哥送的1款“ASUS N53JF”笔记本，1代（1st gen）CPU i5 460M，核显驱动288M，而且各种问题装了至少10次😓 , 我决定偷懒放弃了。。。
 
