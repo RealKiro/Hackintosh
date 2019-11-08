@@ -130,6 +130,8 @@
 
 *  [黑苹果引导工具 Clover 配置详解](https://www.jianshu.com/p/b156b0177a24)
 
+*  [解决华擎主板新BIOS无法启动macOS](https://github.com/cattyhouse/oc-guide/wiki/我的一些黑苹果笔记)
+
 *  [暂时只适用于10.13的N卡驱动nvidia-drivers](https://www.tonymacx86.com/nvidia-drivers/)
 
 *  [黑苹果必备：Intel核显platform ID整理及smbios速查表](https://blog.daliansky.net/Intel-core-display-platformID-finishing.html)
