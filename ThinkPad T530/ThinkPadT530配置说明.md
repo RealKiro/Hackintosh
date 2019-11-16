@@ -1,3 +1,29 @@
+`2019.11.15`
+## CLOVER
+- 因为以前的补丁失效，故决定推倒重来--重新制作基于OC-little的hotpatch，不再采用DSDT-SSDT直接更改的方法（类似`从10.15 Beta4 的时候大批翻车就是因为这个PNP0C09 名称不是 EC` 这样的问题存在是主要原因）
+> @宪武：当时OC已经有了，P-little是clover用的，也是向OC过度的最后一个版本，同时也是验证仿冒EC适用性。现在你应该用[OC-little](https://github.com/daliansky/OC-little)，，OC-little面向笔记本，适用于clover，OC
+
+- 直接使用Len `config笔记本核显hd4000高分屏.plist`并在此基础上打补丁并更改完善
+- [x] HD4000核显默认正常驱动
+- [x] 声音：VoodooHDA正常，AppleALC异常，暂时用VoodooHDA
+- [x] 亮度调节：WhateverGreen.kext 内置亮度驱动--`applbkl =1` + `config勾选补丁` 已正常 [P-little 同样具有参考价值](https://github.com/daliansky/P-little/blob/master/%E9%83%A8%E4%BB%B6%E8%A1%A5%E4%B8%81%E5%8C%85/10-1-PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95/PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95.pdf)
+- [ ] 触摸板：单击异常，双击正常，设置项异常
+- [x] 小红点：正常
+- [ ] 电池显示：异常
+- [x] 合盖息屏：正常
+- [x] 睡眠：正常，亮屏后鼠标需要快速划两下才会重新出现
+- [ ] WIFI：BCM94322H8ML异常
+
+
+## OpenCore
+- [ ] 待研究
+
+---
+### 重建缓存
+```
+sudo kextcache -i /
+```
+
 `2019.10.08`
 - 我很不幸地告诉你：Catalina10.15正式版用以前的 DSDT或hotpatch方式 各种驱动仍然失效
     有成功驱动的请告诉我（有EFI更棒）
