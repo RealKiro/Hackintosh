@@ -7,16 +7,21 @@
 - [x] HD4000核显默认正常驱动
 - [x] 声音：VoodooHDA正常，AppleALC异常，暂时用VoodooHDA
 - [x] 亮度调节：WhateverGreen.kext 内置亮度驱动--`applbkl =1` + `config勾选补丁` 已正常 [P-little 同样具有参考价值](https://github.com/daliansky/P-little/blob/master/%E9%83%A8%E4%BB%B6%E8%A1%A5%E4%B8%81%E5%8C%85/10-1-PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95/PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95.pdf)
-- [ ] 触摸板：单击异常，双击正常，设置项异常
+- [ ] 触摸板：能划动，单击异常，双击正常，设置选项异常`找不到触摸板`
 - [x] 小红点：正常
 - [ ] 电池显示：异常
 - [x] 合盖息屏：正常
-- [x] 睡眠：正常，亮屏后鼠标需要快速划两下才会重新出现
-- [ ] WIFI：BCM94322H8ML异常
+- [ ] 自动息屏后亮屏：异常，Mojave息屏自动休眠需按电源键亮屏且鼠标键盘都没反应
+- [ ] 睡眠：正常，Catalina亮屏后鼠标需要快速划两下才会重新出现
+- [ ] WIFI：`BCM94322H8ML`在Catalina下异常;在Mojave下正常，自带Intel无解
+- [x] 读卡器：正常（查看hackintool硬件ID与[W520](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1259442&highlight=VoodooSDHC.kext)一致，或改为[`0xE8231180`](https://github.com/lvs1974/VoodooSDHCMod/releases)）
+- [ ] USB：异常
 
+⚠️传感器VirtualSMC类等驱动因兼容性只能在OpenCore使用，CLOVER请使用FackSMC类
 
 ## OpenCore
 - [ ] 待研究
+
 
 ---
 ### 重建缓存
