@@ -89,7 +89,7 @@
 					<key>Comment</key>
 					<string>EH01:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1BSVw==
@@ -107,7 +107,7 @@
 					<key>Comment</key>
 					<string>EH02:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1BSVw==
@@ -125,7 +125,7 @@
 					<key>Comment</key>
 					<string>XHC:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1BSVw==
@@ -143,7 +143,7 @@
 					<key>Comment</key>
 					<string>HDEF:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1BSVw==
@@ -161,7 +161,7 @@
 					<key>Comment</key>
 					<string>IGBE:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1BSVw==
@@ -179,7 +179,7 @@
 					<key>Comment</key>
 					<string>Scope:EH01:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1NCX1BDSTBFSEMxFC1fUFJXAA==
@@ -193,7 +193,7 @@
 					<key>Comment</key>
 					<string>Scope:EH02:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1NCX1BDSTBFSEMyFC1fUFJXAA==
@@ -207,7 +207,7 @@
 					<key>Comment</key>
 					<string>Scope:XHC:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1NCX1BDSTBYSENfFC1fUFJXAA==
@@ -247,91 +247,102 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>battery BAT0:GBIF03 to XBIF03</string>
+					<string>TP-BAT:GBIF03 to XBIF03</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
+					<key>Enabled</key>
+					<true/>
 					<key>Find</key>
 					<data>
 					R0JJRgM=
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
 					</data>
 					<key>Replace</key>
 					<data>
 					WEJJRgM=
 					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>battery BAT0:GBST04 to XBST04</string>
+					<string>TP-BAT:GBIX03 to XBIX03</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
-					<key>Find</key>
-					<data>
-					R0JTVAQ=
-					</data>
-					<key>Replace</key>
-					<data>
-					WEJTVAQ=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>battery BAT0:GBIX03 to XBIX03</string>
-					<key>Disabled</key>
-					<false/>
+					<key>Enabled</key>
+					<true/>
 					<key>Find</key>
 					<data>
 					R0JJWAM=
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
 					</data>
 					<key>Replace</key>
 					<data>
 					WEJJWAM=
 					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>battery BAT0:SBMN to BMNX128</string>
+					<string>TP-BAT:GBST04 to XBST04</string>
+					<key>Count</key>
+					<integer>0</integer>
 					<key>Disabled</key>
 					<false/>
+					<key>Enabled</key>
+					<true/>
 					<key>Find</key>
 					<data>
-					U0JNTkA=
+					R0JTVAQ=
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
 					</data>
 					<key>Replace</key>
 					<data>
-					Qk1OWEA=
+					WEJTVAQ=
 					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>battery BAT0:SBDN to BDNX128</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
+					<key>ReplaceMask</key>
 					<data>
-					U0JETkA=
 					</data>
-					<key>Replace</key>
-					<data>
-					QkROWEA=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>battery BAT1:_STA to XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					QkFUMQ==
-					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -752,7 +763,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>40</integer>
+			<string>No</string>
 		</dict>
 		<key>SetIntelBacklight</key>
 		<false/>

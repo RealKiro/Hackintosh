@@ -6,10 +6,10 @@
 - 直接使用Len `config笔记本核显hd4000高分屏.plist`并在此基础上打补丁并更改完善
 - [x] HD4000核显默认正常驱动
 - [x] 声音：VoodooHDA正常，AppleALC异常（据说普遍出问题），暂时用VoodooHDA
-- [x] 亮度调节：使用`SSDT-PNLF-SNB_IVY`已正常（或WhateverGreen.kext 内置亮度驱动 `applbkl =1` + `config勾选补丁` 亮度可更亮） [P-little 同样具有参考价值](https://github.com/daliansky/P-little/blob/master/%E9%83%A8%E4%BB%B6%E8%A1%A5%E4%B8%81%E5%8C%85/10-1-PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95/PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95.pdf)，有  `自动调节亮度` 选项
+- [x] 亮度调节：使用`SSDT-PNLF-SNB_IVY`已正常（或WhateverGreen.kext 内置亮度驱动 `applbkl =1` + `config勾选补丁` 亮度可更亮）
 - [ ] 触摸板：单击异常(单指/双指划动正常)，设置选项异常`找不到触摸板`
 - [x] 小红点：正常
-- [ ] 电池显示：异常（使用 `ACPIBatteryManager.kext` 正常但🔋不会动态变化）
+- [x] 电池显示：使用[ `ACPIBatteryManager.kext` ](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads/)正常但🔋不会动态变化
 - [x] 合盖息屏：正常
 - [x] 自动息屏后亮屏：正常，点击键盘等正常亮屏
 - [x] 睡眠：正常
