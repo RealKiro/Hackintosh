@@ -7,9 +7,9 @@
 - [x] HD4000核显默认正常驱动
 - [x] 声音：VoodooHDA正常，AppleALC异常（据说普遍出问题），暂时用VoodooHDA
 - [x] 亮度调节：使用`SSDT-PNLF-SNB_IVY`已正常（或WhateverGreen.kext 内置亮度驱动 `applbkl =1` + `config勾选补丁` 亮度可更亮）
-- [ ] 触摸板：单击异常(单指/双指划动正常)，设置选项异常`找不到触摸板`
+- [x] 触摸板：正常（更换virtualsmc.kext后正常了很神奇）
 - [x] 小红点：正常
-- [x] 电池显示：使用[ `ACPIBatteryManager.kext` ](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads/)正常但🔋不会动态变化
+- [x] 电池显示：使用[ `ACPIBatteryManager.kext` ](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads/)正常
 - [x] 合盖息屏：正常
 - [x] 自动息屏后亮屏：正常，点击键盘等正常亮屏
 - [x] 睡眠：正常
@@ -18,9 +18,9 @@
 - [x] USB：正常（背后一个USB2.0的口不识别是异常的）
 - [x] 摄像头：正常
 
+⚠️使用前请删除启动参数`-v`，最好机型重新生成一下以免和我的三码冲突
 
-
-*TODO* 下一步准备根据前人资料详细整理并说明每个文件夹下每个文件的作用，期望不再靠玄学解决问题，也为研究OpenCore做准备
+**TODO** 下一步准备根据前人资料详细整理并说明每个文件夹下每个文件的作用，期望不再靠玄学解决问题，也为研究OpenCore做准备
 
 ## OpenCore
 - [ ] 待研究
