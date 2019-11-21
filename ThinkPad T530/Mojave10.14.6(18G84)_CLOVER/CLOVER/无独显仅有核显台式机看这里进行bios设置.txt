@@ -1,0 +1,1 @@
+Bios设置里找到graphics configuration显卡设置里把dvmt pre设置为64m或者以上 显卡显存也为64m以上然后选择对应config即可驱动核显。

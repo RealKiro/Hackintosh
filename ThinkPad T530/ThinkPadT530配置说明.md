@@ -5,19 +5,22 @@
 
 - 直接使用Len `config笔记本核显hd4000高分屏.plist`并在此基础上打补丁并更改完善
 - [x] HD4000核显默认正常驱动
-- [x] 声音：VoodooHDA正常，AppleALC异常，暂时用VoodooHDA
-- [x] 亮度调节：WhateverGreen.kext 内置亮度驱动--`applbkl =1` + `config勾选补丁` 已正常 [P-little 同样具有参考价值](https://github.com/daliansky/P-little/blob/master/%E9%83%A8%E4%BB%B6%E8%A1%A5%E4%B8%81%E5%8C%85/10-1-PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95/PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95.pdf)
-- [ ] 触摸板：能划动，单击异常，双击正常，设置选项异常`找不到触摸板`
+- [x] 声音：VoodooHDA正常，AppleALC异常（据说普遍出问题），暂时用VoodooHDA
+- [x] 亮度调节：使用`SSDT-PNLF-SNB_IVY`已正常（或WhateverGreen.kext 内置亮度驱动 `applbkl =1` + `config勾选补丁` 亮度可更亮） [P-little 同样具有参考价值](https://github.com/daliansky/P-little/blob/master/%E9%83%A8%E4%BB%B6%E8%A1%A5%E4%B8%81%E5%8C%85/10-1-PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95/PNLF%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95.pdf)，有  `自动调节亮度` 选项
+- [ ] 触摸板：单击异常(单指/双指划动正常)，设置选项异常`找不到触摸板`
 - [x] 小红点：正常
-- [ ] 电池显示：异常
+- [x] 电池显示：正常（使用 `ACPIBatteryManager.kext` ，取消默认启动参数 `nv_disable=1` 并添加启动参数 [`-wegnoegpu`](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.cn.md)）
 - [x] 合盖息屏：正常
-- [ ] 自动息屏后亮屏：异常，Mojave息屏自动休眠需按电源键亮屏且鼠标键盘都没反应
-- [ ] 睡眠：正常，Catalina亮屏后鼠标需要快速划两下才会重新出现
-- [ ] WIFI：`BCM94322H8ML`在Catalina下异常;在Mojave下正常，自带Intel无解
-- [x] 读卡器：正常（查看hackintool硬件ID与[W520](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1259442&highlight=VoodooSDHC.kext)一致，或改为[`0xE8231180`](https://github.com/lvs1974/VoodooSDHCMod/releases)）
-- [ ] USB：异常
+- [x] 自动息屏后亮屏：正常，点击键盘等正常亮屏
+- [x] 睡眠：正常
+- [x] WIFI：`BCM94322H8ML` 在`Mojave`及以下版本正常，在`Catalina`下异常;自带Intel无解
+- [x] 读卡器：正常（用hackintool查看硬件ID并参考[W520](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1259442&highlight=VoodooSDHC.kext)，或改为[`0xE8231180`](https://github.com/lvs1974/VoodooSDHCMod/releases)）
+- [x] USB：正常（背后一个USB2.0的口不识别是异常的）
+- [x] 摄像头：正常
 
-⚠️传感器VirtualSMC类等驱动因兼容性只能在OpenCore使用，CLOVER请使用FackSMC类
+⚠️传感器VirtualSMC类等驱动因兼容性貌似只能在OpenCore使用，CLOVER请使用FackSMC类
+
+*TODO* 下一步准备根据前人资料详细整理并说明每个文件夹下每个文件的作用，期望不再靠玄学解决问题，也为研究OpenCore做准备
 
 ## OpenCore
 - [ ] 待研究

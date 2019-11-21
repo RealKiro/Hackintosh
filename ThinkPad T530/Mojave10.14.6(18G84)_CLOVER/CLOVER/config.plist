@@ -13,71 +13,688 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
+				<true/>
+				<key>AddPNLF</key>
 				<false/>
-				<key>FixHPET</key>
+				<key>FixAirport</key>
 				<false/>
-				<key>FixRTC</key>
+				<key>FixDisplay</key>
 				<false/>
-				<key>FixShutdown</key>
+				<key>FixMutex</key>
+				<true/>
+				<key>FixUSB</key>
+				<false/>
+				<key>FixWAK</key>
 				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
+					<string>_PTS to ZPTS(1,N)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					U0FUMA==
+					X1BUUwE=
 					</data>
 					<key>Replace</key>
 					<data>
-					U0FUQQ==
+					WlBUUwE=
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HECI to IMEI</string>
+					<string>_WAK to ZWAK(1,N)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					SEVDSQ==
+					X1dBSwE=
 					</data>
 					<key>Replace</key>
 					<data>
-					SU1FSQ==
+					WldBSwE=
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EHC1 to EH01</string>
+					<string>_Q14 to XQ14(TP-up)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					RUhDMQ==
+					X1ExNA==
 					</data>
 					<key>Replace</key>
+					<data>
+					WFExNA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q15 to XQ15(TP-down)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExNQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExNQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>EH01:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
 					<data>
 					RUgwMQ==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EHC2 to EH02</string>
+					<string>EH02:_PRW to XPRW</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					RUhDMg==
+					X1BSVw==
 					</data>
 					<key>Replace</key>
 					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
 					RUgwMg==
 					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XHC:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>HDEF:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>IGBE:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					SUdCRQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Scope:EH01:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NCX1BDSTBFSEMxFC1fUFJXAA==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1NCX1BDSTBFSEMxFC1YUFJXAA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Scope:EH02:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NCX1BDSTBFSEMyFC1fUFJXAA==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1NCX1BDSTBFSEMyFC1YUFJXAA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Scope:XHC:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NCX1BDSTBYSENfFC1fUFJXAA==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1NCX1BDSTBYSENfFC1YUFJXAA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q13 to XQ13(TP-FnF4)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q2B to XQ2B(TP-LID)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EyQg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEyQg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>battery BAT0:GBIF03 to XBIF03</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0JJRgM=
+					</data>
+					<key>Replace</key>
+					<data>
+					WEJJRgM=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>battery BAT0:GBST04 to XBST04</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0JTVAQ=
+					</data>
+					<key>Replace</key>
+					<data>
+					WEJTVAQ=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>battery BAT0:GBIX03 to XBIX03</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0JJWAM=
+					</data>
+					<key>Replace</key>
+					<data>
+					WEJJWAM=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>battery BAT0:SBMN to BMNX128</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					U0JNTkA=
+					</data>
+					<key>Replace</key>
+					<data>
+					Qk1OWEA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>battery BAT0:SBDN to BDNX128</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					U0JETkA=
+					</data>
+					<key>Replace</key>
+					<data>
+					QkROWEA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>battery BAT1:_STA to XSTA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					QkFUMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Mutex:MDGS=0</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					AU1ER1MH
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					AU1ER1MA
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Mutex:MCPU=0</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					AU1DUFUH
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					AU1DUFUA
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Mutex:BATM=0</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					AUJBVE0H
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					AUJBVE0A
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Mutex:MSMI=0</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					AU1TTUkH
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					AU1TTUkA
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Mutex:BFWM=0</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					AUJGV00H
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					AUJGV00A
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Mutex:XDHK=0</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					AVhESEsH
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					AVhESEsA
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Mutex:MWMI=0</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					AU1XTUkH
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					AU1XTUkA
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Mutex:NPWM=0</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					AU5QV00H
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					AU5QV00A
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>disableBAT1:T430,W530</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					AKBPBFxIOERS
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					AKQAo6Ojo6Oj
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Name0D-03 to 00</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					Cg0KAw==
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					Cg0KAA==
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Name0D-04 to 00</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Disabled</key>
+					<false/>
+					<key>Enabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					Cg0KBA==
+					</data>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>
+					</data>
+					<key>OemTableId</key>
+					<data>
+					</data>
+					<key>Replace</key>
+					<data>
+					Cg0KAA==
+					</data>
+					<key>ReplaceMask</key>
+					<data>
+					</data>
+					<key>Skip</key>
+					<integer>0</integer>
+					<key>TableLength</key>
+					<integer>0</integer>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -112,17 +729,21 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>DualLink=1</string>
+		<string>-v applbkl=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>Mac</string>
 		<key>Legacy</key>
 		<string>PBR</string>
+		<key>NeverHibernate</key>
+		<true/>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>6</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -132,14 +753,11 @@
 		<dict>
 			<key>Inject</key>
 			<integer>40</integer>
-			<key>ResetHDA</key>
-			<false/>
 		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>IntelGFX</key>
-			<string>0x01668086</string>
-		</dict>
+		<key>SetIntelBacklight</key>
+		<false/>
+		<key>SetIntelMaxBacklight</key>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -162,11 +780,11 @@
 		<array>
 			<string>BOOTX64.EFI</string>
 			<string>Windows</string>
-			<string>recovery</string>
-			<string>preboot</string>
+			<string>Preboot</string>
+			<string>Recovery</string>
 		</array>
 		<key>Language</key>
-		<string>zh_CN:0</string>
+		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -194,6 +812,8 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>DualLink</key>
+		<integer>1</integer>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -211,6 +831,8 @@
 		<key>AppleIntelCPUPM</key>
 		<true/>
 		<key>AppleRTC</key>
+		<true/>
+		<key>KernelLapic</key>
 		<true/>
 		<key>KernelPm</key>
 		<true/>
@@ -252,6 +874,24 @@
 				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change 15 port limit to 26 in XHCI kext for 10.14.1 by Ricky</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/sPD4OPBAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				g/sPkJCQkJCQ
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -260,21 +900,25 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<data>
+		Dj3j2GCR
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>12/19/2018</string>
+		<string>07/24/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP91.88Z.F000.B00.1812191334</string>
+		<string>MBP91.88Z.F000.B00.1907241129</string>
 		<key>Board-ID</key>
 		<string>Mac-6F01561E16C75D06</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02245700GUF1YJ1M</string>
+		<string>C023195004NF1YJFB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -286,7 +930,7 @@
 		<key>ChassisType</key>
 		<string>0x0A</string>
 		<key>EfiVersion</key>
-		<string>223.0.0.0.0</string>
+		<string>229.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -304,9 +948,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro9,2</string>
 		<key>SerialNumber</key>
-		<string>C02JN012DTY3</string>
+		<string>C02KPXYUDTY3</string>
 		<key>SmUUID</key>
-		<string>A01E14CA-BE64-4B8E-B130-87755D261BCD</string>
+		<string>2FC7E28D-B2B1-4AC0-8305-5FE002D86091</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -315,8 +959,6 @@
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>
