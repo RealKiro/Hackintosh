@@ -22,6 +22,7 @@
 
 - 以下是EFI基本结构：
 
+```
 | - BOOT
 
     | - BOOTX64.efi
@@ -87,47 +88,27 @@
         | - VirtualSmc.efi  //VirtualSmc.kext配合使用的传感器驱动
 
     | - kexts
-
     	| - ACPIBatteryManager.kext  //电池相关驱动
-
     	| - FakePCIID.kext  //PCI硬件ID仿冒
-
     	| - HoRNDIS.kext  //USB连手机网络共享
-
     	| - IntelMausi.kext  //英特尔有线网卡 Acidanthera 分支
-
     	| - Lilu.kext  //SDK & Library
-
     	| - SMCProcessor.kext  //Acidanthera 的 SMC 和传感器驱动
-
     	| - SMCSuperIO.kext  //Acidanthera 的 SMC 和传感器驱动
-
     	| - USBInjectAll.kext  //USB相关驱动
-
     	| - VirtualSMC.kext  //Acidanthera 的 SMC 和传感器驱动
-
     	| - VoodooHDA.kext  //万能声卡驱动
-
     	| - VoodooPS2Controller.kext  //PS2 键盘/触摸板 驱动
-
     	| - VoodooSDHC.kext  //SDHC 读卡器驱动
-
     	| - WhateverGreen.kext  //显卡补丁驱动
-
     | - misc
-
     | - OEM
-
     | - ROM
-
     | - themes
-
     	｜ - 略
-
     | - tools
-
     	｜ - 略
-    	
+```
 
 ## OpenCore
 - [ ] 待研究
