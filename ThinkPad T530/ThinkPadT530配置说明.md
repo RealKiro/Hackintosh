@@ -23,58 +23,111 @@
 - 以下是EFI基本结构：
 
 | - BOOT
+
     | - BOOTX64.efi
+
 | - CLOVER
+
     | - CLOVERX64.efi
+
     | - config.plist
+
     | - ACPI
+
         | - origin  //原始ACPI表，CLOVER引导界面按F4可提取
+
         | - patched //根据原始ACPI打的补丁，参考OC-little
+
             | - SSDT-BKeyQ14Q15-TP-LPC  //17-亮度快捷键补丁
+
             | - SSDT-EXP1.SLOT-disbale  //22-禁止PCI设备
+
             | - SSDT-EXT3-LedReset-TP   //13-PTSWAK综合补丁和扩展补丁
+
             | - SSDT-FnF4_Q13-X1C5th    //14-PNP0C0E强制睡眠
+
             | - SSDT-HPET_RTC_TIMR-fix  //23-HPET_RTC_TIMR三合一补丁
+
             | - SSDT-MCHC   //09-添加丢失的部件
+
             | - SSDT-OCBAT0-TP_wtx20-60_e40-70_x1c1th-3th   //11-1-OC-Thinkpad电池补丁
+
             | - SSDT-PNLF-SNB_IVY   //05-OC-PNLF注入方法
+
             | - SSDT-PTSWAK //13-PTSWAK综合补丁和扩展补丁
+
             | - SSDT-PWRB   //09-添加丢失的部件
+
             | - SSDT-SMBU   //06-SBUS(SMBU)补丁
+
             | - SSDT-Thinkpad_Clickpad  //07-PS2键盘映射@OC-xlivans
+
     | - WINDOWS
+
     | - doc
+
     	| - 略
+
     | - drivers.backup
+
     	| - 略
+
     | - drivers64UEFI
+
         | - ApfsDriverLoader.efi  //APFS 文件系统引导驱动
+
         | - AptioMemoryFix.efi  //NVRAM 和内存驱动, 用于修复 UEFI 固件上的内存问题, 已与 OpenCore 合并为 FwRuntimeServices
+
         | - AudioDxe-64.efi  //用于在 Clover 启动时播放声音的 HDA 驱动, OpenCore 兼容性未知
+
         | - FSInject.efi  //Clover 用于注入内核驱动 (Kext) 的驱动, OpenCore 自带且使用更先进的方法
+
         | - HFSPlus.efi  //苹果自带的闭源 HFS 驱动, 不具有 Bless 和其它功能, 但是启动速度比它的等效驱动 VBoxHfs 快 3 倍
+
         | - VirtualSmc.efi  //VirtualSmc.kext配合使用的传感器驱动
+
     | - kexts
+
     	| - ACPIBatteryManager.kext  //电池相关驱动
+
     	| - FakePCIID.kext  //PCI硬件ID仿冒
+
     	| - HoRNDIS.kext  //USB连手机网络共享
+
     	| - IntelMausi.kext  //英特尔有线网卡 Acidanthera 分支
+
     	| - Lilu.kext  //SDK & Library
+
     	| - SMCProcessor.kext  //Acidanthera 的 SMC 和传感器驱动
+
     	| - SMCSuperIO.kext  //Acidanthera 的 SMC 和传感器驱动
+
     	| - USBInjectAll.kext  //USB相关驱动
+
     	| - VirtualSMC.kext  //Acidanthera 的 SMC 和传感器驱动
+
     	| - VoodooHDA.kext  //万能声卡驱动
+
     	| - VoodooPS2Controller.kext  //PS2 键盘/触摸板 驱动
+
     	| - VoodooSDHC.kext  //SDHC 读卡器驱动
+
     	| - WhateverGreen.kext  //显卡补丁驱动
+
     | - misc
+
     | - OEM
+
     | - ROM
+
     | - themes
+
     	｜ - 略
+
     | - tools
+
     	｜ - 略
+    	
 
 ## OpenCore
 - [ ] 待研究
