@@ -17,6 +17,7 @@
 - [x] 读卡器：正常（用hackintool查看硬件ID并参考[W520](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1259442&highlight=VoodooSDHC.kext)，或改为[`0xE8231180`](https://github.com/lvs1974/VoodooSDHCMod/releases)）
 - [x] USB：正常（背后一个USB2.0的口不识别是异常的）
 - [x] 摄像头：正常
+- [x] 蓝牙：正常
 
 ⚠️使用前请删除启动参数`-v`，最好机型重新生成一下以免和我的三码冲突
 
