@@ -9,7 +9,7 @@
 - [x] 亮度调节：使用`SSDT-PNLF-SNB_IVY`已正常（或WhateverGreen.kext 内置亮度驱动 `applbkl =1` + `config勾选补丁` 亮度可更亮）
 - [x] 触摸板：正常（更换virtualsmc.kext后正常了很神奇）
 - [x] 小红点：正常
-- [x] 电池显示：使用[ `ACPIBatteryManager.kext` ](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads/)正常
+- [x] 电池显示：使用[ `SMCBatteryManager.kext` ](https://github.com/acidanthera/VirtualSMC/releases)正常
 - [x] 合盖息屏：正常
 - [x] 自动息屏后亮屏：正常，点击键盘等正常亮屏
 - [x] 睡眠：正常
