@@ -31,6 +31,7 @@
     | - ACPI
         | - origin  //原始ACPI表，CLOVER引导界面按F4可提取
         | - patched //根据原始ACPI打的补丁，参考OC-little
+            | - SSDT-ALS0  //OC自带的环境光传感器补丁（☑️自动调节亮度）
             | - SSDT-BKeyQ14Q15-TP-LPC  //17-亮度快捷键补丁
             | - SSDT-EXP1.SLOT-disbale  //22-禁止PCI设备
             | - SSDT-EXT3-LedReset-TP   //13-PTSWAK综合补丁和扩展补丁
