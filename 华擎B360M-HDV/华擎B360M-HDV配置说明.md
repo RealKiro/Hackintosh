@@ -1,6 +1,17 @@
 `2020.03.22`
 - 精简一些无用的东西，为OpenCore作准备（咕咕咕咕……
 
+- [ ] OpenCore参考：
+* [OpenCore 官方文档](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
+* [OpenCore 官方文档迭代](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Differences/Differences.pdf)
+* [OpenCore Vanilla Guide](https://khronokernel.github.io/Opencore-Vanilla-Desktop-Guide/)
+* [使用OpenCore安装黑苹果](https://github.com/cattyhouse/oc-guide)
+* [精解 OpenCore | 黑果小兵](https://blog.daliansky.net/OpenCore-BootLoader.html)
+* [使用 OpenCore 引导黑苹果 | Xjn’s Blog](https://blog.xjn819.com/?p=543)
+
+* [Acidanthera](https://github.com/acidanthera)
+* [OpenCore Configuration](https://blog.xjn819.com/wp-content/uploads/2019/10/Configuration.pdf)
+
 `2019.10.30`
 - 更新至 `Catalina 10.15.1 (19B88)`
 - 更新 `Clover`
@@ -181,8 +192,6 @@
 ---
 ## `OpenCore` 及 `AMD` 相关：
 * [OpenCore](https://github.com/acidanthera/OpenCorePkg)
-
-* [OpenCore驱动]()
 
 * [使用OpenCore安装黑苹果](https://github.com/cattyhouse/oc-guide)
 
