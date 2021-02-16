@@ -3,13 +3,15 @@
     - [微星MSI Z370-A Pro + i5 8400 Big Sur](http://www.13145212.xyz:666/archives/hackintoshguide)
     - ASRock B360M-HDV + i5 8400 : Catalina（矿卡已报废，建兴固态m.2报废了好垃圾...）
     - ThinkPadT530 : Mojave10.14.6(18G84) 基于CLOVER+OC-little （完美度98%）
+    
++ 理论上同系主板都应该能通用，只是有略微区别（需要打补丁），请善用搜索引擎及各大论坛
 + 机器在家用得少，故暂时不研究OpenCore，先套其它大佬的用着再说
 + 目前后2款机型全部用CLOVER；台式同款OpenCore引导已有Justin配置，我目前不会玩。。。
 + 谦虚地说，我只是跨过了黑苹果这道门槛而已，配置好后基本能作为生产工具使用，未出现大问题。
 + 敬请大屌们指正与指导～
 
-+ ASRock ASRock B360M-HDV / ThinkPad T530
-
++ 微星MSI Z370-A Pro / 华擎ASRock B360M-HDV / ThinkPad T530
+    - [微星MSI Z370-A Pro + i5 8400 Big Sur](http://www.13145212.xyz:666/archives/hackintoshguide)
     - ASRock B360M-HDV i5 8400 : Catalina 10.15 (19A583)
     - ThinkPadT530 : MacOS Catalina (10.15) Roll over does not work / Mojave10.14.6 (18G84) available Pause update
 + CLOVER boot is more mature, the current two models all use CLOVER; desktop with the same OpenCore boot has configuration by Justin`s, I will not play. . .
