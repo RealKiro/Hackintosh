@@ -1,6 +1,6 @@
 # Hackintosh黑苹果
 + 微星MSI Z370-A Pro / 华擎ASRock B360M-HDV / ThinkPad T530
-    - [微星MSI Z370-A Pro + i5 8400 Big Sur](http://www.13145212.xyz:666/archives/hackintoshguide)
+    - [微星MSI Z370-A Pro + i5 8400 Big Sur](http://www.13145212.xyz/archives/hackintoshguide)
     - ASRock B360M-HDV + i5 8400 : Catalina（矿卡已报废，建兴固态m.2报废了好垃圾...）
     - ThinkPadT530 : Mojave10.14.6(18G84) 基于CLOVER+OC-little （完美度98%）
     
@@ -9,7 +9,7 @@
 + 目前后2款机型全部用CLOVER；台式同款OpenCore引导已有Justin配置，我目前不会玩。。。
 + 谦虚地说，我只是跨过了黑苹果这道门槛而已，配置好后基本能作为生产工具使用，未出现大问题。
 + 敬请大屌们指正与指导～
-
+---
 + 微星MSI Z370-A Pro / 华擎ASRock B360M-HDV / ThinkPad T530
     - [微星MSI Z370-A Pro + i5 8400 Big Sur](http://www.13145212.xyz:666/archives/hackintoshguide)
     - ASRock B360M-HDV i5 8400 : Catalina 10.15 (19A583)
