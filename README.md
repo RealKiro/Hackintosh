@@ -1,6 +1,6 @@
 # Hackintosh黑苹果
 + 微星MSI Z370-A Pro / 华擎ASRock B360M-HDV / ThinkPad T530
-    - [微星MSI Z370-A Pro + i5 8400 Big Sur](http://www.13145212.xyz/archives/hackintoshguide)
+    - [微星MSI Z370-A Pro + i5 8400 Big Sur](http://13145212.xyz/archives/hackintoshguide)
     - ASRock B360M-HDV + i5 8400 : Catalina（矿卡已报废，建兴固态m.2报废了好垃圾...）
     - ThinkPadT530 : Mojave10.14.6(18G84) 基于CLOVER+OC-little （完美度98%）
     
