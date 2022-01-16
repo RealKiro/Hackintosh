@@ -36,6 +36,9 @@
 	> 根据自己的机型找对应的EFI替换，否则需要自己研究如何定做适合自己的OpenCore或Clover引导。	
 
 
+- [OpenCorePkg Release](https://github.com/acidanthera/OpenCorePkg/releases)
+	> 内含配置模板及最新驱动包（请按照说明文档修改）
+
 - OpenCore Structure
     ```markdown
     - EFI
@@ -113,6 +116,7 @@
 - [Getting-Started-With-OpenCore](https://insanelymacdiscord.github.io/Getting-Started-With-OpenCore/)
 - [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [OpenCore Drivers & Kexts Guide](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers)
+- [OpenCorePkg Release](https://github.com/acidanthera/OpenCorePkg/releases)
 - [OpenCore 0.5+ 部件补丁](https://github.com/daliansky/OC-little)
 - [iASL](https://acpica.org/downloads) -- DSDT-SSDT Hot Patch打补丁编译器
 ---
