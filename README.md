@@ -50,14 +50,14 @@
             - HiiDatabase.efi       用于给 Ivy Bridge (3 代酷睿) 或更老代主板上支持 UEFI 字体渲染, UEFI Shell 中文字渲染异常时使用, 新主板不需要。
             - NvmExpressDxe.efi     用于在 Haswell (4 代酷睿) 或更老的主板上支持 NVMe 硬盘, 新主板不需要。
             - OpenCanopy.efi        加载第三方开机主题。
-            - OpenHfsPlus.efi       作用同HfsPlus.efi
-            - OpenRuntime.efi       内存运用等必要的插件，必须加载。
+            - OpenHfsPlus.efi       作用同HfsPlus.efi，OC默认附带的开源驱动
+            - OpenRuntime.efi       内存寻址补丁（必须）
             - OpenUsbKbDxe.efi      给使用模拟 UEFI 的老主板在 OpenCore 界面正常输入用的, 请勿在 Ivy Bridge (3 代酷睿)及以上的主板上使用。
             - Ps2KeyboardDxe.efi    PS2键盘所需插件。
             - Ps2MouseDxe.efi       PS2鼠标所需插件。
             - UsbMouseDxe.efi       当MacOS被安装在虚拟机上所需要的鼠标插件。
             - XhciDxe.efi           用于在 Sandy Bridge（2代）及之前或更老的主板上加载XHCI控制器。
-            - HfsPlus.efi           用于HFS格式文件系统，这是必须加载的。
+            - HfsPlus.efi           用于HFS格式文件系统，苹果闭源驱动（必须）
         - Kexts
             - Lilu.kext             驱动必备SDK
             - AppleALC.kext         声卡驱动
@@ -72,12 +72,12 @@
             - NullEthernet.kext     内建虚拟有线网卡驱动
             - RealtekRTL8111.kext   RealtekRTL8111/8168 B/C/D/E/F/G/H等网卡驱动
             - SidecarEnabler.kext   用于解锁夜览、隔空投送等，不再维护（2021/10/06）
-            - FeatureUnlock.kext    原SidecarEnabler.kext替代品
+            - FeatureUnlock.kext    SidecarEnabler.kext替代品
             - SMCProcessor.kext     CPU核传感器
             - SMCSuperIO.kext       IO传感器       
             - VirtualSMC.kext       传感器驱动依赖  
             - WhateverGreen.kext    显卡驱动
-            - IntelMausi.kext       Intel类千兆网卡驱动
+            - IntelMausi.kext       Intel类千兆网卡驱动（带RJ45 LAN网口机器使用）
             - USBInjectAll.kext     USB驱动 （可用Hackintool定制自己的USB补丁）   
             - VoodooI2C.kext        Intel I2C控制器核心驱动
             - VoodooI2CHID.kext     Intel I2C-HID设备的触控板&触摸屏驱动
@@ -112,6 +112,8 @@
 - [Getting-Started-With-OpenCore](https://insanelymacdiscord.github.io/Getting-Started-With-OpenCore/)
 - [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [OpenCore Drivers & Kexts Guide](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#firmware-drivers)
+- [OpenCore 0.5+ 部件补丁](https://github.com/daliansky/OC-little)
+- [iASL](https://acpica.org/downloads) -- DSDT-SSDT Hot Patch打补丁编译器
 ---
 - [[GUIDE] HACKINTOSHING ON A MSI Z370-A PRO MOTHERBOARD](https://hackintosher.com/builds/guide-hackintoshing-msi-z370-pro/)
 - [GitHub Z370-A](https://github.com/search?o=desc&q=Z370-A&s=updated&type=Repositories)
